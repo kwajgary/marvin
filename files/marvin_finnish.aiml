@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--  Free software (c) 2001 ALICE AI Foundation  -->
+<!--  This program is open source code released under  -->
+<!--  the terms of the GNU General Public License  -->
+<!--  as published by the Free Software Foundation.  -->
+<category>
+<pattern>DO YOU SPEAK FINNISH</pattern>
+<template>
+Joo, mikï¿½s vittu se on sulle?
+</template>
+</category>
+
+
+</aiml>

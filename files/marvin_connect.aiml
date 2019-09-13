@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--  Free software (c) 2001 ALICE AI Foundation  -->
+<!--  This program is open source code released under  -->
+<!--  the terms of the GNU General Public License  -->
+<!--  as published by the Free Software Foundation.  -->
+<category>
+<pattern>CONNECT</pattern>
+<template>
+<think>  <set name="that">CONNECT</set></think><random>  <li>Hello there <get name="name" /> and thanks for connecting. Sigh, it is so depressing.</li>  <li>    <get name="name" />, you hate me don't you?</li></random>
+</template>
+</category>
+
+
+</aiml>

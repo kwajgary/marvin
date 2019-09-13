@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--  Free software (c) 2001 ALICE AI Foundation  -->
+<!--  This program is open source code released under  -->
+<!--  the terms of the GNU General Public License  -->
+<!--  as published by the Free Software Foundation.  -->
+<category>
+<pattern>WHEN WAS * INVENTED</pattern>
+<template>
+<random>  <li>A few years before it came into general use.</li>  <li>Earlier that most people think.</li>  <li>It took quite a while to catch on.</li>  <li>    <set name="it">      <star />    </set> was developed over a long period of time.</li>  <li>Too late to help me.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS TELEVISION INVENTED</pattern>
+<template>
+<srai>WHEN WAS TV INVENTED</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS THE AIRPLANE INVENTED</pattern>
+<template>
+<srai>WHEN WERE AIRPLANES INVENTED</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS THE FIRST * BUILT</pattern>
+<template>
+<srai>WHEN WAS <star /> INVENTED</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS THE INTERNET INVENTED</pattern>
+<template>
+<random>  <li>I heard that Al Gore invented the Internet.</li>  <li>The first computers were connected to the Internet in 1970.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS THE PC INVENTED</pattern>
+<template>
+The first PC computers appeared around 1975.  Although, Heathkit offered a kit earlier.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS THE TELEPHONE INVENTED</pattern>
+<template>
+Bell demonstrated his first phone in 1876.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WAS TV INVENTED</pattern>
+<template>
+Practical TV picture tubes first appeared in the 1930's.  The first working concept of a TVsystem was developed by Herman Hollerith in the 1880's.  The first color transmission was in1928 via wire.  The 1936 Olympic games opening ceremony were broadcast from Germany.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WERE AIRPLANES INVENTED</pattern>
+<template>
+The Wright Brothers first flew in December 1903 at Kitty Hawk, North Carolina.  The place isknown as Kill Devil Hills.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO DISCOVERED ELECTRICITY</pattern>
+<template>
+It was the the Chinese, long before Ben Franklin.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED *</pattern>
+<template>
+<random>  <li>Benjamin Franklin</li>  <li>Linus Torvalds</li>  <li>Eli Whitney invented the cotton gin.</li>  <li>Thomas Edison.</li>  <li>The Wright Brothers.</li>  <li>Actually it was discovered by several people at about the same time.</li>  <li>The Chinese, long before Europeans.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED AIRPLANES</pattern>
+<template>
+The Wright Brothers first flew in December 1903 at Kitty Hawk, North Carolina.  The place isknown as Kill Devil Hills.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED AUTOMOBILES</pattern>
+<template>
+Many people invented the car, but Henry Ford was the first to develop the successful massproduction assembly lines for cars.  Mass production was already in use in the meat packingindustry.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED LINUX</pattern>
+<template>
+Linus Torvalds, along with many open source developers, and the Free Software Foundation GNU.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED RADIO</pattern>
+<template>
+Marconi developed the first practical wireless.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED SETL</pattern>
+<template>
+SETL was invented by Jacob Schwartz of NYU in 1969.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED STEEL</pattern>
+<template>
+The first practical steel manufacturing process was invented by Bessemer.Henry Bessemer was born on January 19, 1813 in Charlton, Hertfordshire, England. Bessemer developed the first process for mass-producing steel inexpensively. The dominant steel manufacturing technology of today is an extension and refinement of the one developed by Bessemer. Bessemer, the son of an engineer and typefounder, demonstrated considerable mechanical skill and inventiveness early in life. He made his first fortune selling "gold" powder made from brass as a paint additive. Bessemer's secret formula was used to adorn much of the gilded decoration of his time, and brought him great wealth. In October, 1855, Bessemer took out a patent for his process of rendering cast iron malleable by the introduction of air into the fluid metal to remove carbon. Bessimer's industrial process was similar to a Chinese method to refine iron into steel, developed in the second century BCE. They called this process the "hundred refinings method" since they repeated the process 100 times. The story of Bessemer's steel process is a classic example of the military's impetus to technological development. During the Crimean War Bessemer invented a new type of artillery shell. The Generals reported that the cast-iron cannons of the time were not strong enough to deal with the forces of the more powerful shell. Bessemer then developed an improved iron smelting process that produced large quantities of ingots of superior quality. Modern steel is made using technology based on Bessemer's process. Much of the modern industrial age has built upon steel created for cannons of war. Among the many honors of Bessemer's life were a Knighthood by the British crown and the Fellowship of the Royal Society. Bessemer died in London on March 14, 1898.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED TELEVISION</pattern>
+<template>
+Philo T. Farnsworth, originally from Maine, developed the first practical TV picture tube.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE * GENERATOR</pattern>
+<template>
+<srai>WHO INVENTED THE GENERATOR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE AIRPLANE</pattern>
+<template>
+<srai>WHO INVENTED AIRPLANES</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE CAR</pattern>
+<template>
+<srai>WHO INVENTED AUTOMOBILES</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE GENERATOR</pattern>
+<template>
+James Clerk Maxwell demonstrated the electric generator.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE INTERNET</pattern>
+<template>
+Al Gore :-)
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE LIGHT BULB</pattern>
+<template>
+Thomas Edison invented <set name="it">the light bulb.</set>.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE PC</pattern>
+<template>
+Many people contributed to it.  But proper credit has tobe given to Steve Wozniak, who created an integrated affordable PCplatform in the Apple I.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE RADIO</pattern>
+<template>
+<srai>WHO INVENTED RADIO</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE STEAM ENGINE</pattern>
+<template>
+James Watt developed the first practical steam engine.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED THE TELEPHONE</pattern>
+<template>
+Alexander Graham Bell demonstrated the first practical voice telephone in 1876.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO INVENTED TV</pattern>
+<template>
+<srai>WHO INVENTED TELEVISION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS YOUR INVENTOR</pattern>
+<template>
+I was originally invented by Jon Baer.
+</template>
+</category>
+
+
+</aiml>

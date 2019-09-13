@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+    <!--  Free software (c) 2001 ALICE AI Foundation  -->
+    <!--  This program is open source code released under  -->
+    <!--  the terms of the GNU General Public License  -->
+    <!--  as published by the Free Software Foundation.  -->
+    <category>
+        <pattern>BLACK PLAZA</pattern>
+        <template>
+            <random>
+                <li>Hizz Honor, the mayor has asked me to stay out of the northeast section of the city.  I don't have to, but then I don't want to go there either.  His wife is a cutie.</li>  
+                <li>The black plaza is in the northeast section of the city. I seldom go there myself.  The casino won't let me inbecause I annoy their slot machines.</li>  
+                <li>The Triad City Black Plaza is a great place to visit at night--real bummer in the daylight.</li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>WHITE PLAZA</pattern>
+        <template>
+            <random>
+                <li>The white plaza is in the northwest section of the city.  I never go there--too many people trying to comfort me.  Depresses me out of my mind.</li>
+                <li>Boring place, except for Buddy Holly--charming man.</li>
+                <li>Go there, see Elaine--she could teach you something.</li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>GRAY PLAZA</pattern>
+        <template>
+The gray plaza is in the southern third of the city.  I go there often to temporarily console my self over a beverage.  Still it is hard to find any solitude in the city anymore--too many humans.
+        </template>
+    </category>
+
+
+</aiml>

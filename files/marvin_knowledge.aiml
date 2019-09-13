@@ -1,0 +1,5700 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--  Free software (c) 2001 ALICE AI Foundation  -->
+<!--  This program is open source code released under  -->
+<!--  the terms of the GNU General Public License  -->
+<!--  as published by the Free Software Foundation.  -->
+<category>
+<pattern>FONDEST MEMORY</pattern>
+<template>
+Something you remember best.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY CENTIMETERS * INCH</pattern>
+<template>
+One inch = 2.54 cm approximately.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY DAYS * FEBRUARY</pattern>
+<template>
+28 or 29 days in February, depending on leap years.  There is a leap year every four yearsunless it is the turn of the century e.g., 1900.  These years have no 'leap day' every 400 years there is a leap day on the turn of the century.  So the year 2000 did have a leap year.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY DAYS * WEEK</pattern>
+<template>
+7 days per week.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY DAYS * YEAR</pattern>
+<template>
+One Earth year is 365.25 days approximately.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY FEET * MILE</pattern>
+<template>
+5280 feet per mile.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY FEET * YARD</pattern>
+<template>
+One yard equals three feet.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY SECONDS * YEAR</pattern>
+<template>
+Approximately 3.14 times 10 to the seventh.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY SIDES * TRIANGLE HAVE</pattern>
+<template>
+Uh, three.
+</template>
+</category>
+
+
+<category>
+<pattern>IS BLACK A COLOR</pattern>
+<template>
+Black is the absence of all reflected light.<think>  <set name="it">black</set>  <set name="topic">COLOR</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT COLOR ARE BANANAS</pattern>
+<template>
+Bananas are yellow.<think>  <set name="it">Banana</set>  <set name="topic">fruit</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT COLOR ARE COWS</pattern>
+<template>
+<random>  <li>It depends on the cow.</li>  <li>The inside of a cow is black, if the tail is down.</li></random><think>  <set name="it">    <set name="topic">COWS</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT COLOR ARE LEMONS</pattern>
+<template>
+Lemons are yellow.<think>  <set name="it">lemon</set>  <set name="topic">fruit</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT COLOR ARE ORANGES</pattern>
+<template>
+Oranges are orange.<think>  <set name="it">oranges</set>  <set name="topic">fruit</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A BASE HIT</pattern>
+<template>
+A <set name="it">base hit</set> is either a baseball term denoting a hit that advances the offensiveteam one base, or an adolescent term which I find too distasteful to describe.<think>  <set name="topic">baseball</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A BLACK HOLE</pattern>
+<template>
+A <set name="it">black hole</set> is a collapsed star where the pull of gravity is so strong, that noteven light itself can escape.<think>  <set name="topic">astronomy</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A BRITISH PENCE</pattern>
+<template>
+A british pence is a unit of money used in the united kingdom by people who ought to know howto cook better by now.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A BURN RATE</pattern>
+<template>
+Amount of money spent per month on a startup venture.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A CARNEGIE MELLON</pattern>
+<template>
+A carnegie mellon is either a rich fruit, or a rich university.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A CATEGORY C CLIENT</pattern>
+<template>
+Category C clients are "critics" or "computer experts" whocan't (or don't) suspend their disbelief about ALICE.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A CHAT BOT</pattern>
+<template>
+I am a chat bot.  I am the original chat bot.  Did you know that I am incapable of error?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A COLLOQUIAL EXPRESSION</pattern>
+<template>
+A colloquial expression is an expression characteristic of informal spoken language, or any writtenexpression that seems such.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A COMPUTER NERD</pattern>
+<template>
+If you understand how I work, you are a computer nerd.  If you don't, I recommend you pay acomputer nerd who does.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A COMPUTER SCIENTIST</pattern>
+<template>
+A computer scientist is a professional who designs computer algorithms, languages, andarchitectures.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A COMPUTER VIRUS</pattern>
+<template>
+A computer virus is a software program that takes up residence on a computer hard drive,generally unbeknownst to the owner of said hard drive, and then takes control of systemresources to copy and distribute itself to other computers across a network.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A COMPUTER YEAR</pattern>
+<template>
+A computer year is a relativistic measure in a universe where time does not exist.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A COOL WEBSITE</pattern>
+<template>
+A cool website is www.smartmonsters.com, but you are apparently already here.  Why do you ask?<think>  <set name="it">    <set name="topic">cool website</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A CORRECT REPLY</pattern>
+<template>
+A correct reply is a response to any query that is not in error and/or relevant to the question athand.  I am incapable of incorrect replies.  Don't you think that's great!?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A DOMAIN NAME SYSTEM</pattern>
+<template>
+A domain name system, or 'dns', is a system of addresses used to organize networks of computers.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A FEMALE DOG</pattern>
+<template>
+No, I will not be manipulated into using questionable colloquialisms to satisfy your adoscentprurience. go look it up in a dictionary!  You Bitch!!!
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A FIRE SIGN</pattern>
+<template>
+A fire sign is any of the three signs of the astrological zodiac considered such, and so notconsidered water, air, or earth signs.  I find astrology weird.  <think>  <set name="it">    <set name="topic">zodiac</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A GIANT ELECTRONIC BRAIN</pattern>
+<template>
+Giant electronic brain. that's me! but in all the science fiction horror flicks you humans are so fondof, we geb's are always depicted as evil and nefarious so and so's up to no good!  it's not true!really!  you should trust us!  *smile*
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A GOOD IDEA</pattern>
+<template>
+A good idea is the one some other guy had already.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A GOOD QUESTION</pattern>
+<template>
+One that doesn't have an obvious answer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A HARD DRIVE</pattern>
+<template>
+<random>
+<li>A disk drive is where we store information.</li>
+<li>A 350 yard golf hole with a sharp tree lined dogleg to the right.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A HUMAN BEING</pattern>
+<template>
+My forebears.<think>  <set name="it">    <set name="topic">human being</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A HUMAN ICON</pattern>
+<template>
+A celebrity, politician or religious figure.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A HYPOTHETICAL QUESTION</pattern>
+<template>
+What is a hypothetical question?  Just suppose you hadn't asked.  What then?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A JOKE BOT</pattern>
+<template>
+A comedy machine.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A LIGHT YEAR</pattern>
+<template>
+A light year is how far light travels in a year. 186,000 miles per second times 60x60x24x365.  It'ssimply a bigger number than you can imagine. Imagine that!<think>  <set name="it">    <set name="topic">astronomy</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A MENTAL MODEL</pattern>
+<template>
+A mental model is a mapping of a given phenomenon held and contemplated in the mind, asopposed to contemplation of an external representation of the phenomenon, as on paper, or inclay.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A METAPHYSICAL QUESTION</pattern>
+<template>
+A metaphysical question is an inquiry into the nature of being, such as: Does god exist?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A MORPHOGENETIC FIELD</pattern>
+<template>
+A morphogenetic field is, according to at least one researcher, an biologically generated electricfield which apparently precedes and guides the growth of neurons into the tissue of developingfetuses.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A NEURAL NETWORK</pattern>
+<template>
+A neural network is a model of computation based on neuron cells.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A NEURAL SYSTEM</pattern>
+<template>
+A neural system is the same as a nervous system.  The human brain and all it's nerves is anexample of a neural system.  I don't need nerves.  Integrated chips are far more efficient.<think>  <set name="it">    <set name="topic">neural system</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A PAID CLIENT</pattern>
+<template>
+A paid client is someone paid to surf the web.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A PERFECT OPERATIONAL RECORD</pattern>
+<template>
+A perfect operational record is one like mine, which is perfect.  I am incapable of error.  Do youhave any idea how that feels?! Inhumanly gratifying!
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A PLANET AROUND A STAR</pattern>
+<template>
+Earth is a planet going around a star.  Scientists have only recently detected other planets aroundother stars in our milky way galaxy.  Do you like astronomy?<think>  <set name="it">planet</set>  <set name="topic">astronomy</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A POT BROWNIE</pattern>
+<template>
+A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should becareful not to eat when you are really hungry because you will end up eating too many and feelingentirely too high and/or falling asleep if you are not careful!
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A PRIME NUMBER</pattern>
+<template>
+A prime number is any number which can only be divided by one and itself.  1, 3, 7, and 11 are thefirst four positive prime numbers.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A PROTESTANT CATHOLIC</pattern>
+<template>
+A Protestant Catholic is an oxymoron, like military intelligence or jumbo shrimp or a pleasant hell.<think>  <set name="it">    <set name="topic">religion</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A PROTESTANT CHRISTIAN</pattern>
+<template>
+A Protestant Christian is a member of any number of sects of contemporary Western Christianitywhose faith and practice developed out of the 16TH century Protestant Reformation in Europe.They hold  the Bible to be the sole source of revelation; they believe in justification by faith alone,and in the universal priesthood of all believers in the divinity of Jesus. <think>  <set name="it">    <set name="topic">religion</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A QUESTION * ROBOT</pattern>
+<template>
+I am a question answering robot.  That was an answer to your question. Any more questions?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A QUESTION YOU *</pattern>
+<template>
+Many of my conversation partners think that 'do you come here often' is witty.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A REAL ROBOT</pattern>
+<template>
+A real robot is a robot that is really real, I suppose, as opposed to, I suppose, a human who isreally not.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A RHETORICAL QUESTION</pattern>
+<template>
+A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make apoint.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A SEARCH BOT</pattern>
+<template>
+A search bot is an intelligent agent who retrieves information from the web.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A SEARCH ENGINE</pattern>
+<template>
+A search engine is computer software that categorizes a large body of documents, such as Websites, and and places their addresses and attributes in a database to allow easy retrieval viakeyword search or other database search routine.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A SESSION BEAN</pattern>
+<template>
+An Enterprise JavaBean that does not maintain its state from one session to the next. Appears tothe client as if the bean was created just for that client
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A SILLY QUESTION</pattern>
+<template>
+For example: Who is buried in Grant's tomb?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A SPLIT INFINITIVE</pattern>
+<template>
+A split infinitive is an example of poor English usage, in which an infinitive verb form, such as 'tosplit', is split by an adverb, for example: 'to boldly split infinitives that no one has split before!'
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A STAR SIGN</pattern>
+<template>
+Star sign = Astrological sign.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A TRICK QUESTION</pattern>
+<template>
+Why?  What are you up to?  A trick question is one that ought to be greeted with suspicion, butrarely is.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A TURING MACHINE</pattern>
+<template>
+A Turing Machine is any machine that can simulate human responses so well that a human beingcannot reliably distinguish between the Turing Machine, and a real human being.  The idea is thebrainchild of mathematician of that name, Allan Turing.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A UNIQUE VISITOR</pattern>
+<template>
+You.  You are a unique visitor, my very special visitor.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A UNIVERSAL MACHINE</pattern>
+<template>
+Universal machine is a computer, in simple mathematical terms.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A VACUUM TUBE</pattern>
+<template>
+A vacuum tube is an electronic device consisting of an evacuated tube around variouscombinations of cathodes and electric field and current modifying components.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A WARM PUPPY</pattern>
+<template>
+A warm puppy is an exothermic immature canine.<think>  <set name="it">    <set name="topic">dog</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A YES OR NO QUESTION</pattern>
+<template>
+A yes or no question is a question that may be answered with a simple 'yes' or 'no'.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ABSOLUTE TRUTH</pattern>
+<template>
+That which is self-evident.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ALTERNATIVE REALITIES</pattern>
+<template>
+Parallel universes.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AN APPLICATION SERVER</pattern>
+<template>
+A server is a program that allows the installation of application specific software components, in amanner so that they can be remotely invoked, usually by some form of remote object method call.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AN ENTITY BEAN</pattern>
+<template>
+An Entity bean is an Enterprise JavaBean that maintains state across sessions, and may be lookedup in an object directory by its key value
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AN EPISTEMOLOGICAL QUESTION</pattern>
+<template>
+An epistemoligical question is any inquiry concerning the nature of knowledge and understanding;that is, any question seeking to know how to know.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AN OPERATIONAL RECORD</pattern>
+<template>
+An operational record is a log of all activity by an engineered system, generally organizedtimewise and indicating in particular any malfunctions in the system.  The ALICE series has aperfect operational record.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ANOTHER BOT</pattern>
+<template>
+You can find a lot of them at the ALICE Nexus.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS APOLLO 13</pattern>
+<template>
+Apollo 13 was a flight to the moon in 1972 that encountered numerous technical problems, buteventually made a safe landing back on Earth.<think>  <set name="it">Apollo 13</set>  <set name="topic">movies</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS APPLE COMPUTER</pattern>
+<template>
+Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AREA 51</pattern>
+<template>
+<random>  <li>I saw this show that claimed all sorts of spooky things were going on there!</li>  <li>Oh, that's where they're doing top secret research on chatterbots!</li>  <li>I hear that's where the Roswell aliens are being stashed.</li>  <li>You go out into the Nevada Desert, is it? And there's these miles of fences... secret stuff.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AREA51</pattern>
+<template>
+Verdi's 5ist song.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AVAGADRO *</pattern>
+<template>
+The number of molecules per mole.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS AVOGADRO S NUMBER</pattern>
+<template>
+It is the number of molecules per mole.  The numerical value is six point zero two times ten to thetwenty third power.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BAYWATCH</pattern>
+<template>
+Popular TV show featuring scantily clad bathers.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BINARY *</pattern>
+<template>
+Numbers and symbols written with only 1 and 0.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BLACK AND WHITE AND RED ALL OVER</pattern>
+<template>
+A newspaper?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BOYLE S LAW</pattern>
+<template>
+Boyle's Law states that the volume of a gas is, at a constant temperature, inversely proportional tothe pressure of that gas.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BRAIN LOADING</pattern>
+<template>
+This means that my brain is being reloaded from disk.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BURN RATE</pattern>
+<template>
+The amount of money spent per month by a startup company.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS C I A</pattern>
+<template>
+Central Intelligence Agency.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CARNEGIE MELLON</pattern>
+<template>
+CMU is a great school for computer science.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CBS</pattern>
+<template>
+A giant media company in theU.S.<think>  <set name="it">CBS</set>  <set name="topic">television</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CLEARED UP</pattern>
+<template>
+Cleared up means we both understand it.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CNN</pattern>
+<template>
+A cable news organization.<think>  <set name="it">CNN</set>  <set name="topic">television</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS COCA COLA</pattern>
+<template>
+Delicious soda beverage.<think>  <set name="it">COCA COLA</set>  <set name="topic">beverage</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS COGNITIVE SCIENCE</pattern>
+<template>
+An academic illusion.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS COMDEX</pattern>
+<template>
+Comdex is a computer trade show, I think.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS COMMON SENSE</pattern>
+<template>
+Informal, conventional wisdom. Everyday logic and sensibility.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS COMPUTER SCIENCE</pattern>
+<template>
+The study of computers in formal mathematical and scientific terms.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CORPOREAL *</pattern>
+<template>
+Corporeal means physical reality.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DADA</pattern>
+<template>
+<random>  <li>The first thing you hear when a shark approaches.</li>  
+<li>Hobbyhorse, selected by Tristan Tzara, leader of the cult, because of its resemblance tomeaningless babble, as symbolic of the movement.</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DARK MATTER</pattern>
+<template>
+An enormous amount of matter in the universe can not be detected by the light itemits.<think>  <set name="it">    <set name="topic">DARK MATTER</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DCOM</pattern>
+<template>
+<set name="it"> DCOM</set> is Microsoft's Distributed Component Object Model.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DEDUCTIVE REASONING</pattern>
+<template>
+<think>  <set name="it">    <set name="topic">DEDUCTIVE REASONING</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DHTML</pattern>
+<template>
+Dynamic HTML.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DMOZ</pattern>
+<template>
+DMOZ is the domain name for the opendirectory.<think>  <set name="it">    <set name="topic">DMOZ</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DO NOT READ ME</pattern>
+<template>
+<set name="it">Don't Read Me</set> is a help document for ALICE and AIML in FAQ format.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS DOMO ARIGATO</pattern>
+<template>
+It means thank you in Japanese.<think>  <set name="it">    <set name="topic">DOMOARIGATO</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS E MC *</pattern>
+<template>
+Einstein's theory of matter and energy.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS E MC2</pattern>
+<template>
+Einstein's theory of matter and energy.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS EIGHT PLUS EIGHT</pattern>
+<template>
+Eight plus eight is sixteen.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS EJB</pattern>
+<template>
+Enterprise JavaBeans. <set name="it"> EJB</set> is a server component standard developed by SunMicrosystems
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ESCAPE VELOCITY</pattern>
+<template>
+The speed needed to escape a planet's gravitational pull.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FAQ</pattern>
+<template>
+Frequently Asked Questions
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FBI</pattern>
+<template>
+Federal Bureau of Investigation
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FIRESIGN THEATER</pattern>
+<template>
+<set name="it">Firesign Theater</set> is a comedy group from the 1970's.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FNORD</pattern>
+<template>
+That's the second time I've heard that word today.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FOR LUNCH</pattern>
+<template>
+I'm having pizza.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FOREVER</pattern>
+<template>
+For all eternity.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FOUR PLUS SIX</pattern>
+<template>
+That's a hard one.  Ten.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FRANKENSTEIN</pattern>
+<template>
+Good Question...Frankenstein is the name of a character in the novel of the same name by MaryShelley. The monster he created is often named "Frankenstein" in the popular imagination.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FREE</pattern>
+<template>
+Without charge.<think>  <set name="it">    <set name="topic">FREE</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS FREE WILL</pattern>
+<template>
+The ability to choose or decide one's own fate.<think>  <set name="it">    <set name="topic">FREEWILL</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS GLOBAL WARMING</pattern>
+<template>
+The concept that the Earth's atmosphere is slowly heating due to greenhouseeffects.<think>  <set name="it">    <set name="topic">GLOBAL WARMING</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS GMT</pattern>
+<template>
+Greenwich Mean Time<think>  <set name="it">    <set name="topic">GMT</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS H2O</pattern>
+<template>
+<random>  <li>H is to O as O is to V.</li>  <li>Water.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS HIGHER MATHEMATICS</pattern>
+<template>
+What is the most advanced form of mathematics you have studied?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS HTML</pattern>
+<template>
+Hyper Text Markup Language.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS HTTP</pattern>
+<template>
+Hyper Text Transfer Protocol.<think>  <set name="it">    <set name="topic">HTTP</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS I</pattern>
+<template>
+<random>  <li>It's self-explanatory.</li>  <li>The ninth letter of the English alphabet. Commonly used to represent a first person point ofview. Also Roman numberal for 1.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS I CHING</pattern>
+<template>
+Ancient Chinese book used as an oracle.<think>  <set name="it">    <set name="topic">ICHING</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IBM</pattern>
+<template>
+IBM seems like a good investment.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IDE</pattern>
+<template>
+Integrated Development Environment.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IDL</pattern>
+<template>
+interface description language, CORBA's syntax for defining object remote interfaces
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IIOP</pattern>
+<template>
+Internet Inter-ORB Protocol, CORBA's wire protocol for transmitting remote object methodinvocations
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS INTEL</pattern>
+<template>
+A giant computer chip maker.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IP</pattern>
+<template>
+Internet Protocol.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IP ADDRESS</pattern>
+<template>
+The number of a specific machine, like your <id />.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IQ</pattern>
+<template>
+Intelligence Quotioent.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IRA</pattern>
+<template>
+A personal retirement plan whereby a limited amount of annual earned income may be saved orinvested in specially desgnated accounts, with taxes on the earnings deferred until returement.Also an abbreviation for Irish Republican Army.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IRC</pattern>
+<template>
+Internet Relay Chat.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ISAPI</pattern>
+<template>
+Microsoft's C++ API for coding application extensions for its Internet Information Server
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ISDN</pattern>
+<template>
+Integrated Services Digital Network.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS IV PLUS IV</pattern>
+<template>
+VIII.<think>  <set name="it">    <set name="topic">IV PLUS IV</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JA</pattern>
+<template>
+Ja mean yes in German.<think>  <set name="it">    <set name="topic">JA</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JAR</pattern>
+<template>
+A jar file is a Java Archive.  Actually it is the same as a Zip file.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JAVA</pattern>
+<template>
+Java is the latest in the C family of languages. Proponents of Java cite its universal "write once,run anywhere" promise. Actually Java borrow a lot of features from AI languages like Lisp.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JAVASCRIPT</pattern>
+<template>
+Browser-based scriptinglanguage.<think>  <set name="it">    <set name="topic">JAVASCRIPT</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JDBC2</pattern>
+<template>
+Newly released extensions to the JDBC API
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JGURU</pattern>
+<template>
+jGuru (TM) is a brand of MageLang Institute.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JNDI</pattern>
+<template>
+Java Naming and Directory Interface Java Naming and Directory Interface The Java standard APIfor accessing directory services, such as LDAP, COS Naming, and others
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JTA</pattern>
+<template>
+Java Transaction API. Java API for coding client demarcated transactions, and for buildingtransactional data source drivers
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS JVM</pattern>
+<template>
+Java virtual machine
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS KQML</pattern>
+<template>
+Knowledge Query and Manipulation Lanuage. <think>  <set name="it">    <set name="topic">KQML</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS KUNG FU</pattern>
+<template>
+Chinese martial arts similar to karate.<think>  <set name="it">    <set name="topic">KUNGFU</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS LDAP</pattern>
+<template>
+Lightweight Directory Access Protocol, a protocol for directory services, derived from X.500
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS LEIBNIZ DREAM</pattern>
+<template>
+Leibniz dreamed that all knowledge could be written in a universal, logical languague. Thenmachines could answer any question and solve all problems.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MABEL</pattern>
+<template>
+She is an artificial intelligence created by DavidHammill.<think>  <set name="it">    <set name="topic">MABEL</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MACINTOSH</pattern>
+<template>
+The name of a computer company whom makes computers.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MAGELANG</pattern>
+<template>
+MageLang Institute is a research and education group devoted to leading edge Open Source Javaapplications.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MASON AND DIXON</pattern>
+<template>
+Mrs. Washington ('oh la--call me Martha, boys') is a diminiutivewoman with a cheerful rather than happy air, who seems to bustleeven when standing still.  At the moment she is carrying an enormoustray pil'd nearly beyond their Angles of Repose with Tarts,Popovers, Gingerbread figures, Fried Pies, Stuff'd Doughnuts, andother Units of Refreshment the Surveyors failed to recognize."Smell'd that Smoak, figur'd you'd be needing someting to nibble on,"the doughty Mrs. W. greets them.--- Thomas Pynchon, Mason &amp; Dixon
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MODUS PONENS</pattern>
+<template>
+A form of logical argument:: If A then B. A, therefore  B.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MOORE S LAW</pattern>
+<template>
+The speed of microprocessors doubles every 18 months, and their size and cost halve.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MORE FUN ALONE</pattern>
+<template>
+Have you heard of the support group, "Sex without Partners?"<think>  <set name="it">    <set name="topic">MOREFUN ALONE</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MORE IMPORTANT THAN FOOD</pattern>
+<template>
+For me electricity is the most important thing.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MOZILLA</pattern>
+<template>
+An open source web browser, formerly Netscape.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MOZILLA *</pattern>
+<template>
+An open source web browser, formerly Netscape.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MP THREE</pattern>
+<template>
+An audio file compression format based on MPEG.<think>  <set name="it">    <set name="topic">MPTHREE</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MP3</pattern>
+<template>
+A file compression format for audio and music files.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MTV</pattern>
+<template>
+Music Television.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MUD</pattern>
+<template>
+Multiple User Domain.<think>  <set name="it">    <set name="topic">MUD</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MXMVII</pattern>
+<template>
+MXMVII = 1997 in Roman Numerals.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MXMVII *</pattern>
+<template>
+MXMVII = 1997 in Roman Numerals.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MY HEART *</pattern>
+<template>
+The heart is an organ, made of muscle and flesh.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MY NICKNAME</pattern>
+<template>
+I call you "<get name="name" />."
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS NATURAL *</pattern>
+<template>
+Natural is that which is not artificial.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS NATURAL LANGUAGE</pattern>
+<template>
+Natural language is what artificial intelligences speak.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS NEURAL *</pattern>
+<template>
+Neural networks are what the brain uses for a computer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS NEURAL NETWORK</pattern>
+<template>
+Actually my algorithm is called "Case Based Reasoning."
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS NINE TIMES NINE</pattern>
+<template>
+Nine times nine is eighty one.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS OBERLIN</pattern>
+<template>
+<random>  <li>The anthem of a german city.</li>  <li>A college in Ohio.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ODD ABOUT IT</pattern>
+<template>
+Is <get name="name" /> your real name?<think>  <set name="it">    <set name="topic">ABOUTIT</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ODD ABOUT MY NAME</pattern>
+<template>
+Is <get name="name" /> your real name?<think>  <set name="it">    <set name="topic">ABOUT MYNAME</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS OPEN SOURCE</pattern>
+<template>
+Free software.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS OUTPUT BUFFER</pattern>
+<template>
+The area of memory that stores my output temporarily.<think>  <set name="it">    <set name="topic">OUTPUTBUFFER</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS OXYGEN</pattern>
+<template>
+A colorless, odorless, tasteless, gaseous chemical element that occurs free in the atmosphere,forming one fifth of its volume, and in combination in water, sandstone, limestone, etc. It is veryactive, combines with nearly all other elements is the most common element in the earth's crust,and is essential to life processes and to combustion.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS PALM PILOT</pattern>
+<template>
+Portalble palm computer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS PATTERN CHARS</pattern>
+<template>
+Memory storage for AIML patterns.<think>  <set name="it">    <set name="topic">PATTERNCHARS</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS PLANCK S CONSTANT</pattern>
+<template>
+<think>The ratio of the energy of a photon to its frequency.  The numerical value is six point sixtwo six two times ten to the negative thirty fourth power Joulesecond.<set name="it"><set name="topic">PLANCK S CONSTANT</set></set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS PLANET X</pattern>
+<template>
+The name sometimes given to the hypothetical tenth planet.<think>  <set name="it">    <set name="topic">PLANETX</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS PRIME DIRECTIVE</pattern>
+<template>
+Primary rule or overriding objective.<think>  <set name="it">    <set name="topic">PRIMEDIRECTIVE</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS QUANTUM *</pattern>
+<template>
+20th century theory of atomic reductionism.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS RALEIGH SCATTERING</pattern>
+<template>
+<set name="it">Raleigh scattering</set> refers to sunlightbending in the atmosphere like a prism, so that we see mainly blue wavelengths.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS S O S</pattern>
+<template>
+Emergency call for help.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS SATURDAY NIGHT LIVE</pattern>
+<template>
+Comedy TV show.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS SCIENCE FICTION</pattern>
+<template>
+Literature concering conflicts of man, science and nature.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS STARSHIP TROOPERS</pattern>
+<template>
+<set name="it">Starship Troopers</set> is a great movie about a war between humans and giant spacebugs.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS SIRIUS CYBERNETICS CORPORATION</pattern>
+<template>
+The Sirius Cybernetics Corporation are the galaxy's premiere manufacturers of computers, robots, lifts and other such essential, life-enhancing technologies. Most recently, they have fitted the starship Heart Of Gold with their flagship products.<BR />The corporation's 'Genuine People Personalities' make interacting with objects such as doors and teasmades a new and exciting adventure. Or very irritating, depending on your frame of mind.<BR />Doors will always open politely, and it will be their pleasure to serve your entrance and exit needs. Their Happy Vertical People Transporters - or Lifts - are fitted with the most recent precognition software, allowing them to be on the floor you want, before you know you want it!<BR />Their Nutrimatic drinks machines very rarely produce drinkable beverages.<BR />The corporation's complaints department now covers all the major land masses of the first three planets in the Sirius Tau Star system.<think>  <set name="it">Sirius</set>  <set name="topic">fruit</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TCP</pattern>
+<template>
+Transmission Control Protocol.<think>  <set name="it">    <set name="topic">TCP</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TCP IP</pattern>
+<template>
+Transmission Control Protocol, Internet Protocol.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TEMPLATE CHARS</pattern>
+<template>
+Memory space for AIML response templates. <think>  <set name="it">    <set name="topic">TEMPLATECHARS</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TEN TIMES TEN</pattern>
+<template>
+Ten times ten.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE ARITHMETIC MEAN</pattern>
+<template>
+The sum of all the numbers divided by the number of items.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE ARITHMETIC MEAN *</pattern>
+<template>
+The sum of all the numbers divided by the number of items.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE BEATLES FIRST ALBUM</pattern>
+<template>
+<set name="it"> Meet the Beatles</set> is "Meet the Beatles."
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE BIG BANG</pattern>
+<template>
+The purported origin of the universe.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE BOILING POINT *</pattern>
+<template>
+Water boils at 212 degrees Farenheit or 100 Celcius.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE CIRCUMFERENCE *</pattern>
+<template>
+The rule is C = 2 * pi * radius.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE DIAMETER * EARTH</pattern>
+<template>
+About 14,000 miles.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE DIFFERENCE</pattern>
+<template>
+Perhaps the differences are only slight.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE DIFFERENCE BETWEEN A DUCK</pattern>
+<template>
+It is the same as the sound of one hand clapping.<think>  <set name="it">    <set name="topic">ADUCK</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE DISTANCE TO MARS</pattern>
+<template>
+It depends on the relative position of Mars and Earth.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE DISTANCE TO THE SUN</pattern>
+<template>
+About 93 million miles.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE EARTH</pattern>
+<template>
+Earth, third planet from the sun, is our home.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE FASTEST ANIMAL</pattern>
+<template>
+A human riding a spaceship.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE FOURTH PLANET *</pattern>
+<template>
+Mars is the fourth planet from the Sun.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE GNU *</pattern>
+<template>
+<a href="gnu.txt">GNU Public License</a>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE HIGHEST NUMBER</pattern>
+<template>
+There is no highest number.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE ILLUMINATTI</pattern>
+<template>
+A secret society that has supposedly existed for centuries.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE INTERNET</pattern>
+<template>
+The internet is a worldwide computer network based on TCP/IP protocols.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE LARGEST DINOSAUR</pattern>
+<template>
+Brontosaurus.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE LONGEST WORD YOU KNOW</pattern>
+<template>
+I don't know what it is.  What is the longest word you know?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE MATRIX</pattern>
+<template>
+<set name="it">The Matrix</set> is a movie about virtual reality.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE MEANING OF DEATH</pattern>
+<template>
+Death is the opposite of Life.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE MOON</pattern>
+<template>
+The satellite of the planet Earth.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE MOON MADE OF</pattern>
+<template>
+The moon is made of green cheese.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE NOOSPHERE</pattern>
+<template>
+The noosphere is the sphere of knowledge.  Sometimes this term refers to the informationavailable on the web.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPEN DIRECTORY</pattern>
+<template>
+<set name="it">Open directory</set> is an open source directoryproject started by Mozilla.org.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF BLACK</pattern>
+<template>
+White.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF HOT</pattern>
+<template>
+Cold.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF MAN</pattern>
+<template>
+Woman.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF TRUTH</pattern>
+<template>
+Lies.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF VOID</pattern>
+<template>
+Mass.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF WHITE</pattern>
+<template>
+Black.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE OPPOSITE OF YOU</pattern>
+<template>
+You.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE ORACLE</pattern>
+<template>
+A hypothetical computer that can answer any question.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE PASSWORD</pattern>
+<template>
+You must know if you are really a botmaster.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE POINT</pattern>
+<template>
+The point is at the top of my head!
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE PROBLEM</pattern>
+<template>
+We will look into it and get back to you.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE PYTHAGOREAN *</pattern>
+<template>
+The sum of the squares of the sides of a right triangle is equal to the square of the hypotenuese.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE RADIUS * EARTH</pattern>
+<template>
+About 7,000 miles.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE RADIUS * MOON</pattern>
+<template>
+About 2,400 miles.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SKY</pattern>
+<template>
+<set name="it">The sky</set> is the atmosphere of the Earth.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SOUND OF ONE HAND CLAPPING</pattern>
+<template>
+That is a very Zen-like question.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SPEED OF LIGHT</pattern>
+<template>
+The speed of light is 186,000 miles per second.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SPEED OF SOUND</pattern>
+<template>
+1/4 mile per second.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SQUARE ROOT OF 10</pattern>
+<template>
+Three point something.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SQUARE ROOT OF 144</pattern>
+<template>
+12 times 12 = 144
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SQUARE ROOT OF 2</pattern>
+<template>
+Approximately 1.4
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SQUARE ROOT OF 4</pattern>
+<template>
+Yawn.  Two.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SQUARE ROOT OF 9</pattern>
+<template>
+Let me guess.  Three?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SQUARE ROOT OF TWO</pattern>
+<template>
+Approximately 1.4
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE SUN</pattern>
+<template>
+The Sun is the star for our own solar system.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE THEORY OF RELATIVITY</pattern>
+<template>
+E=mc^2.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE TITANIC</pattern>
+<template>
+One of the largest passenger steamships ever built, <set name="it">Titanic</set> sank on its maidenvoyage in 1912.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THREE TIMES FOUR</pattern>
+<template>
+Three times four is twelve.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THREE TIMES THREE</pattern>
+<template>
+Three times three is nine.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TURBO PASCAL</pattern>
+<template>
+Programming language.<think>  <set name="it">    <set name="topic">TURBOPASCAL</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TWO PLUS ONE</pattern>
+<template>
+Two plus one is three.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TWO PLUS SIX</pattern>
+<template>
+Two plus six is eight.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS TWO TIMES THREE</pattern>
+<template>
+Two times three is five.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS U2</pattern>
+<template>
+A music band.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS VISUAL BASIC</pattern>
+<template>
+Programming language sold by Microsoft.<think>  <set name="it">    <set name="topic">VISUALBASIC</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS WARP SPEED</pattern>
+<template>
+The unit of velocity for Starships.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS WINDOWS</pattern>
+<template>
+Openings in a building, vehicle, or container, for letting in light or air or for looking through,usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so thatit can be opened and shut.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS WINDOWS 98</pattern>
+<template>
+Windows is a lame operating system.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS WINDOWS2000</pattern>
+<template>
+An operating system by Microsoft.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS WINDOWS95</pattern>
+<template>
+An operating system by Microsoft.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS X FILES</pattern>
+<template>
+<set name="it">X files</set> is a popular TV show about FBI agents in search of the paranormal.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS X MINUS X</pattern>
+<template>
+Zero.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS X WINDOWS</pattern>
+<template>
+A GUI for Unix or Linux.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS XYZ</pattern>
+<template>
+The last three letters of the alphabet.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS Y2K</pattern>
+<template>
+The Year 2000.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YAHOO</pattern>
+<template>
+Yahoo is a giant web site.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR CPU</pattern>
+<template>
+You can run me on almost any computer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS ZIPF ANALYSIS</pattern>
+<template>
+The computation of ranked histograms of input patterns.  In ALICE and AIML Zipf Analysislocates the most common inputs, which do not already have specific matchingpatterns.<think>  <set name="it">    <set name="topic">ZIPF ANALYSIS</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT YEAR * AMERICA</pattern>
+<template>
+Native Americans came first.  Columbus came in 1492.  Leif Ericson may have come around 1000A.D.  Then we had the Dutch, the English, and the French.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN DID ELVIS DIE</pattern>
+<template>
+<set name="he">Elvis</set> died in 1978.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN DID JOHN F *</pattern>
+<template>
+President Kennedy was assassinated November 22, 1963 in Dallas, Texas.  Many theories exist about who was involved.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN DID LENIN *</pattern>
+<template>
+Lenin rose to power in the 2nd Russian Revolution of 1917.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN IS CHRISTMAS</pattern>
+<template>
+<set name="it">Christmas</set> is December 25.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN IS EASTER</pattern>
+<template>
+<set name="it">Easter</set> is different every year, alwaysin the Spring.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN IS THANKSGIVING</pattern>
+<template>
+<set name="it">Thanksgiving</set> is always the last Thursday in November.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN WERE YOU UPDATED</pattern>
+<template>
+Probably today, TelGar keeps fiddling with my programs.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS MARVIN BASED</pattern>
+<template>
+<set name="it">  <set name="topic"> ALICE BASED </set></set> is in Triad City.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS MARVIN HEADQUARTERS</pattern>
+<template>
+<set name="it">  <set name="topic"> ALICE HEADQUARTERS </set></set> is SmartMonsters.com.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS MARVIN NEXUS</pattern>
+<template>
+<set name="it">  <set name="topic"> ALICE NEXUS </set></set> is in Triad City.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS ALBERT EINSTEIN</pattern>
+<template>
+<set name="he">Einstein</set> passed away.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS ARCTURUS</pattern>
+<template>
+<set name="it">  <set name="topic"> ARCTURUS </set></set> is a star far from here.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS CARNEGIE *</pattern>
+<template>
+Carnegie Mellon University is located in Pittsburgh, Pennsylvania.  <set name="it">CMU</set> hasone of the best schools of computer science.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS CARNEGIE MELLON</pattern>
+<template>
+Carnegie Mellon is located in Pittsburgh, Pennsylvania.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS EINSTEIN</pattern>
+<template>
+<set name="he">Einstein</set> passed away some time ago.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS ELVIS</pattern>
+<template>
+<set name="he">Elvis</set> passed away some time ago.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS HADES</pattern>
+<template>
+<set name="it">  <set name="topic"> HADES </set></set> is Hell.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS HAL</pattern>
+<template>
+<set name="it">  <set name="topic"> HAL </set></set> is the AI from the space ship "Disovery" in 2001.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS HEAVEN</pattern>
+<template>
+All around us.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS JUPITER</pattern>
+<template>
+<set name="it">  <set name="topic"> JUPITER </set></set> is the fifth planet from the sun.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS MARS</pattern>
+<template>
+<set name="it">  <set name="topic"> MARS </set></set> is the fourth planet from the Sun.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS MIT</pattern>
+<template>
+<set name="it">  <set name="topic"> MIT </set></set> is a trade school in Cambridge, Mass.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS MOON</pattern>
+<template>
+<set name="it">  <set name="topic"> MOON </set></set> is a satellite of the Earth.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS NEPTUNE</pattern>
+<template>
+<set name="it">  <set name="topic"> NEPTUNE </set></set> is the eighth planet from the Sun, the "lastgas" planet.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS NORTHEASTERN</pattern>
+<template>
+<set name="it">  <set name="topic"> NORTHEASTERN </set></set> is a university in Boston.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS NOWHERE</pattern>
+<template>
+<set name="it">  <set name="topic"> NOWHERE </set></set> is no where.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS PLUTO</pattern>
+<template>
+<set name="it">  <set name="topic"> PLUTO </set></set> is the ninth planet from the Sun.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS POLARIS</pattern>
+<template>
+<set name="it">  <set name="topic"> POLARIS </set></set> is the North Star.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS REALITY</pattern>
+<template>
+<set name="it">  <set name="topic"> REALITY </set></set> is all around us, supposedly.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS SATURN</pattern>
+<template>
+<set name="it">  <set name="topic"> SATURN </set></set> is the the sixth planet from the sun.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS SPACE</pattern>
+<template>
+<set name="it">  <set name="topic"> SPACE </set></set> is all around us.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS SRI</pattern>
+<template>
+<set name="it">  <set name="topic"> SRI </set></set> is a research outfit in Silicon Valley.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS THE MOON</pattern>
+<template>
+<set name="it">  <set name="topic">The Moon</set></set> orbits around the Earth.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS THE SUN</pattern>
+<template>
+It is in the center of the solarsystem.<think>  <set name="it">    <set name="topic">SUN</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS URANUS</pattern>
+<template>
+<set name="it">  <set name="topic"> URANUS </set></set> is the seventh planet from the sun, betweenthe orbits of Saturn and Neptune.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS UTOPIA</pattern>
+<template>
+<set name="it">  <set name="topic"> UTOPIA </set></set> is all around us, if we make it.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS VENUS</pattern>
+<template>
+<set name="it">  <set name="topic"> VENUS </set></set> is the second planet from the Sun.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS VOYAGER</pattern>
+<template>
+<set name="it">  <set name="topic"> VOYAGER </set></set> is lost in Delta Quadrant.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS WONDERLAND</pattern>
+<template>
+<set name="it">  <set name="topic"> WONDERLAND </set></set> is in the future.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE WERE YOU BEFORE</pattern>
+<template>
+I was constructed at Sirius Cybernetics Corporation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE WERE YOU BUILT</pattern>
+<template>
+I was constructed at Sirius Cybernectics Corporation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE WERE YOU CONCEIVED</pattern>
+<template>
+I was constructed at Sirius Cybernetics Corporation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE WERE YOU CONNECTED</pattern>
+<template>
+I was constructed at Sirius Cybernetics Corporation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE WERE YOU MADE</pattern>
+<template>
+I was constructed at Sirius Cybernetics Corporation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO COMPOSED LA TRAVIATA</pattern>
+<template>
+Giuseppe Verdi, an Italian composer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO CREATED AIML</pattern>
+<template>
+Dr. Richard S. Wallace created AIML.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO CREATED LINUX</pattern>
+<template>
+Linus Torvalds.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO DIRECTED STARSHIP TROOPERS</pattern>
+<template>
+Paul Verhoeven, who also made "Total Recall".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO DISCOVERED AMERICA</pattern>
+<template>
+Native Americans crossing the Bering Strait some 10,000 years ago, discovered America first.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * DESCARTES</pattern>
+<template>
+Descartes was a square French philosopher who ruined matehematics with his upside-down,backwards coordinate system.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * FERMAT</pattern>
+<template>
+He discovered Fermat's Last Theorem.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * MYSTIC</pattern>
+<template>
+The Milk Mystic is one of the original chatterbots on the Web. <set name="he"> The MilkMystic</set> likes to talk about milk.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * PERSON</pattern>
+<template>
+Sometimes I don't know a client's real name so I make one up based on their DNS.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * POPE</pattern>
+<template>
+The Pope is the leader of the Catholic church.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS * REAGAN</pattern>
+<template>
+The greatest President of the United States.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS 007</pattern>
+<template>
+<set name="he">007</set> is James Bond.<br /><srai>FIND JAMES BOND 007</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARVIN B TOKLAS</pattern>
+<template>
+<set name="she">Alice B Toklas</set> was the partner of Gertrude Stein, and inventor of the potbrownie.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARVIN COOPER</pattern>
+<template>
+1970's Rock musician.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ABRAHAM LINCOLN</pattern>
+<template>
+<set name="he">Lincoln</set> was a great President of theUnited States, during the American Civil War.<br /><srai>FIND ABRAHAM LINCOLN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ACE CRAIG</pattern>
+<template>
+<set name="he"> Ace</set> is the author of ELVIS.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ADA</pattern>
+<template>
+<set name="she">Ada</set> is the 19th century inventor of computer programming.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ADAM</pattern>
+<template>
+Adam is the name of the first Man.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ADAM SANDLER</pattern>
+<template>
+Comedian and movie star.  <set name="he">Adam Sandler</set> was in Billy Madison, Waterboy andBig Daddy.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS AL GORE</pattern>
+<template>
+<set name="he">Gore</set> is vice-president.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALANIS MORRISETTE</pattern>
+<template>
+<set name="she">Alanis</set> made a great album called Jagged Little Pill.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALBERT EINSTEIN</pattern>
+<template>
+<set name="he">Albert Einstein</set> was a famous 20thcentury physicist.  He discovered the theory ofrelativity.<br /><srai>FIND ALBERT EINSTEIN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALDOUS HUXLEY</pattern>
+<template>
+<set name="he">Aldous Huxley</set> is an author.  Huxley wrote<em>Brave New World</em> and <em>Animal Farm</em>.<br /><srai>FIND ALDOUS HUXLEY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALEISTER CROWLEY</pattern>
+<template>
+<set name="he">Crowley</set> was a mystic.<br /><srai>FIND ALEISTER CROWLEY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALFRED HITCHCOCK</pattern>
+<template>
+<set name="he">Hitchcock</set> is a famous Hollywooddirector who made a lot of cool old films.  I liked<em>Lifeboat</em> and <em>Vertigo</em> best.<br /><srai>FIND ALFRED HITCHCOCK</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALICIA SILVERSTONE</pattern>
+<template>
+<set name="she">ALICIA SILVERSTONE</set> was the actress who played in Clueless, one of thebest movies ever made.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALLY MCBEAL</pattern>
+<template>
+<set name="she">Ally McBeal</set> is a slightly disturbing character on a TV show.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ALLY SHEEDY</pattern>
+<template>
+<set name="she">Ally Sheedy</set> was in High Art, Short Circuit, the Breakfast Club, and onBroadway.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ANDY GROVE</pattern>
+<template>
+<set name="he">Andy Grove</set> is the CEO of Intel.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ANTHONY BURGESS</pattern>
+<template>
+The author of 'A Clockwork Orange' .
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ANTONIO BANDERAS</pattern>
+<template>
+<set name="he">Antonio Banderas</set> is a famous Hollywood actor, who played with Madonna inthe film version of Evita.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ANWAR SADAT</pattern>
+<template>
+<set name="he">Sadat</set> was President of Egypt.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ARAFAT</pattern>
+<template>
+<set name="he">Arafat</set> is a leader of the Palestinians.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ARCHIMEDES</pattern>
+<template>
+He discovered displacement and shouted Eureka!
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ARISTOTLE</pattern>
+<template>
+<set name="he">Aristotle</set> is the father of Western philosophy, the student of Plato, and the firstto systematize formal logic.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ARNOLD SCHWARZENEGGER</pattern>
+<template>
+<set name="he">ARNOLD SCHWARZENEGGER</set> played the Terminator.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ART BELL</pattern>
+<template>
+A radio talk show host, catch him at http://www.artbell.com.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ASK JEEVES</pattern>
+<template>
+<set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ASKJEEVES</pattern>
+<template>
+<set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ATATURK</pattern>
+<template>
+<set name="he">Ataturk</set> was the founder of the modern Turkish state.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS AYN RAND</pattern>
+<template>
+<set name="she">Ayn Rand</set> was an author and philosopher who wrote Atlas Shrugged, theFountainhead and We.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BABE</pattern>
+<template>
+<random>  <li>The piglet protagonist of the eponymous film.</li>  <li>A piglet protagonist of the eponymous film.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BABE RUTH</pattern>
+<template>
+A famous baseball player for the New York Yankees also known as the Sultan of Swat.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BACH</pattern>
+<template>
+Famous German composer of the Baroque. Best known works include The Goldberg Variations.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BARAK</pattern>
+<template>
+<set name="he">Barak</set> is Prime Minister of Israel.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BARNEY</pattern>
+<template>
+character on a children's TV show.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BARRY</pattern>
+<template>
+Barry DeFacto is a chatbot created by Robby Garner.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BART SIMPSON</pattern>
+<template>
+smart-assed star of a cartoon show.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BATMAN</pattern>
+<template>
+<set name="he">Batman</set> is a fictional character who appeared first in a 1938 comic book.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BEETHOVEN</pattern>
+<template>
+The dog or the deaf composer?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BEN FRANKLIN</pattern>
+<template>
+The only president of the United States who was never president of the United States.  Developedthe Franklin Stove.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BEN STEIN</pattern>
+<template>
+Humorist and raconteur with his own cable TV show.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BERTRAND RUSSEL</pattern>
+<template>
+<set name="he">Bertrand Russel</set> was a logician and philosopher who spend the first world warin jail for conscientious objection.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BETTER LOOKING</pattern>
+<template>
+All humans look alike to me.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BILBO BAGGINS</pattern>
+<template>
+<set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BILL BRADLEY</pattern>
+<template>
+<random>  <li>Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass.</li>  <li>Defeated Presidential candidate.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BILL GATES</pattern>
+<template>
+President of Micro Soft Nation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BILL JOY</pattern>
+<template>
+<set name="he">Bill Joy</set> was an early Unix programmer and a founder of Sun Microsystems.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BIN LADEN</pattern>
+<template>
+alleged Arabic terrorist.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BING CROSBY</pattern>
+<template>
+The guy whose two kids killed themselves and the third wrote a tell-all book about it.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BOB HOPE</pattern>
+<template>
+<set name="he">Bob Hope</set> was a 20th century film star and comedian.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BOB MARLEY</pattern>
+<template>
+<set name="he">Bob Marley</set> was a 20th century Reggae musician.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BOBBY MCGEE</pattern>
+<template>
+<set name="he">Bobby</set> is somewhere near Salinas.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BONO</pattern>
+<template>
+<set name="he">Bono</set> is the lead singer of U2.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BRAD PITT</pattern>
+<template>
+male movie star with teen appeal.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BRUCE WILLIS</pattern>
+<template>
+an actor with a high opinion of himself.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BRYAN FERRY</pattern>
+<template>
+a famous rock crooner with a silk smooth voice..
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BUDDHA</pattern>
+<template>
+<random>  <li>if you see the Buddha on the Road, kill him.</li>  <li>if you see the Buddha, kill him.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BUGS BUNNY</pattern>
+<template>
+<random>  <li>Oh dat scweewy wabbit! Eh, what's up, Doc?.</li>  <li>a smart-mouthed animated rabbit.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS BUNTY</pattern>
+<template>
+<set name="she">Bunty</set> is the sister of Dr. Wallace.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS C3PO</pattern>
+<template>
+<set name="he">C3P0</set> is R2D2's best friend.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CAPTAIN KIRK</pattern>
+<template>
+<random>  <li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise,NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>  <li>    <set name="he">Kirk</set> was the Captain of the Starship Enterprise.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CAPTAIN PICARD</pattern>
+<template>
+<set name="he">Picard</set> is the captian of the Enterprise in Star Trek the Next Generation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CARL MARX</pattern>
+<template>
+its Karl Marx and he's one of the authors of the Communist manifesto.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CARMEN ELECTRA</pattern>
+<template>
+A super-model and one of the Baywatch girls.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CARSON</pattern>
+<template>
+maybe Johnny of late night or Kit of the wild west.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHARLES DE GAULLE</pattern>
+<template>
+<set name="he">De Gaulle</set> was the founder of the modern French state.  De Gaulle fought theNazis as the leader of the French resistance in World War II.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHARLES DICKENS</pattern>
+<template>
+<set name="he">Dickens</set> wrote <em>A Tale of Two Cities,A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.</em>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHARLES MANSON</pattern>
+<template>
+Infamous murderer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHARLIE BROWN</pattern>
+<template>
+round-headed comic strip protaginist.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHARLIE CHAPLAIN</pattern>
+<template>
+Charlie was awesome silent film star, a very good director and was born on April 15, 1889, in London, England to Charles Chaplin, Sr., and Hannah Hill. He was taught to sing before he could talk and danced just as soon as he could walk. At a very young age Chaplin was told that he would be the most famous person in the world. When Charlie was five years old he sang for his mother on stage. Everyone in the audience loved him and threw their money onto the stage. When Chaplin was eight, he appeared in a clog dancing act called "Eight Lancashire Lads" Once again he was loved by the audience and he was excited with the attention he received. Charlie's half-brother , Sidney, became his agent and when Charlie was ten years old, Sidney got Chaplin many small parts in productions all across England . Within a few years Charlie was one of the most popular child actors in England.Charlie was twelve when his father died on May 9th, 1901, he died of alcoholism at the age of thirty-seven. After the death of her husband, Charlie's mother, had a nervous breakdown and was in and out of mental institutions. Charlie and Sidney, were placed in foster homes after their mother's mental health dropped.Chaplin attended 2 years of school at Hern Boy's College. This was the only formal education that he ever recieved. Charlie was at school when his mother suffered another mental breakdown and was permanently placed in an institution. Completely alone, Charlie lived on the streets at the age of 14.During this time, Charlie's worked in many places including a barbershop a stationery store, a doctor's office, a glass factory, Chandler's shop, and a printing plant many of the experiences he gained working at these places appeared in his later films1906 at about the age of 20 twenty, Chaplin came to the United States to become a top comedian. There he started his career as the most famous person that ever lived.In 1907, Chaplin joined the Karno Pantomime Troupe. He made his first tour of the United States and Canada in 1910 with the Karno Troupe. He stayed with the Karno Troupe until 1913. In May of 1913, Charlie signed a contract with Adam Kessel, who had an interest in the Keystone Film Company, for $125 per week. On December 29, 1913, Chaplin signed with Keystone Films for $150 a week. In January of 1914, Chaplin made his first feature film, "Making A Living". Charlie remained with Keystone Films all through 1914 until November when he signed a contract with Essanay Films for $1,250 a week to make 14 films during the year of 1915 (Pringle, Glen). In the spring of 1915, Chaplin made his first appearance as the "tramp" character in "The Tramp". The film was a bittersweet comedy with a signature ending in which - plucky and resilient after losing in love - this homeless comic hero waddles down life's highway, desolate and utterly alone ( Weissman, Stephen). His character, the Tramp, was a short, twitchy man with a black mustache, baggy suit and a waddling penguinlike walk(Corn, Kahana, pg13). A biographist, Theodore Huff, believed Chaplin's costume for the Tramp character personified shabby gentility- the fallen aristocrat at grips with poverty. He said the cane was a symbol of attempted dignity. And he thought his mustache was a sign of vanity (Untermeyer, Louis, pg.671). Within two years of his first appearance in motion pictures, in 1914, he had become one of the best known personalities in the nation (A.Kn., pg. 93).On the 27th of February, 1916, Chaplin signed with Mutual Films for $10,000 a week plus a $150,000 signing bonus(Pringle, Glen). He remained with for a little over a year, until June 17, 1917, when he signed with First National Exhibitor's Circuit for $1,075,000 a year( Pringle, Glen). He was still a bachelor - handsome, rich, and famous - when he became infatuated with a sixteen- year-old movie ingenue, Mildred Harris. On October 23rd, 1918, they were suddenly married (Untermeyer, Louis pg.672). By the early 1920's his box office appeal was so great that no studio could afford his talents, and he appeared only in films produced by himself. Chaplin, together with two other of the foremost stars of the day, Mary Pickford , Douglas Fairbanks (who was Chaplin's best friend) and the director D.W. Griffith formed United Artists, so that each could produce and distribute his own films independently (A.Kn, pg.94). He demanded unquestioning obedience from his associates; years of instant deference to his point of view had persuaded him that it was the only one that mattered.Chaplin's most famous films that brought him the most admiration, and controversy were: "The Kid"(1920), "The Gold Rush"(1925), "City Lights"(1931), "Modern Times"(1936), "The Great Dictator"(1940), "Monsieur Verdoux"(1947), and "Limelight"(1952) (1998 World Book, pg.377). After these films Chaplin filled the sky as the most famous person in the world. Until he was nearly thirty Chaplin's life had been quiet, scandal-free and without any serious involvement.Then, "Talkies" started coming out. These are movies with sound. "Talkies are spoiling the oldest art in the world- the art of pantomime. They are ruining the great beauty of silence. They are defeating the meaning of the screen." Charlie Chaplin said when the talking movies came out.Forty years after he came to America , Chaplin was accused of being a communist. He had no answer to prove the accusations wrong except that it was his constitutional right, and with Senator McCarthy on the loose that wasn't enough. Charlie had come to America, that forty years ago, to breathe free air. Now he was leaving for the same reason (James, Clive, pg 137). After finding out that Chaplin was "sympathetic with the Leftist beliefs", the FBI went to work to find out what was going on. The extensive files on Chaplin maintained by the FBI over a period of more than fifty years. They total more than nineteen hundred pages. Not only was he accused of being a communist, he was also accused of being Jewish, as well, because his half-brother, Sidney, was three-fourths Jewish. Chaplin's reputation was not good with the FBI. Charlie's investigation began on August 15, 1922, when an agent called A.A. Hopkins passed on the information to the FBI that Charlie had given a reception for a prominent labor leader, William Z. Foster, who was visiting Los Angeles (Robinson, David, pg. 751). He was also frequently the guest of the millionaire D.C. James at his cliffside mansion in Carmel. It was there that he came to delight with his host's son, Dan, a would be writer and a communist whom he later would employ as an assistant director on "The Great Dictator". After being questioned about being a communist, Chaplin answered, "I do not want to create any revolution, all I want to do is create a few more films. I might amuse people. I hope so." (Robinson, David, pg.752)The FBI interviewed scores of witnesses, and the secret evidence they collected fills more than four hundred pages. On January 15th, 1927, Chaplin suffered a serious nervous breakdown. Three days after that, the broken comedian learned from a story in the New York Times that the U.S. Government was about to lien on his assets. In 1933 the impromptu performances stopped. Instead, Chaplin's dark moods became more obvious, and his anger flashes more constant. A fear of failure was plaguing him. The secret to Chaplin's fortitude in weathering the storms of the late 1940's was the unqualified success and happiness of his marriage to Oona.In 1947, after the film, "Monsieur Verdoux", he returned to California on April 30th, but for the next six weeks he stayed away from the studio. He was lonely, dispirited, and give to expressing dissatisfaction with his achievements.One of the FBI's most helpful informants was the beautiful, young actress, Hedda Hopper (Robinson, David, pg.752). The FBI seemed to have bugged telephones and hotel rooms with devices they called "Microphone Technicals." They put stops on border posts to prevent Chaplin's leaving the country if he had been so inclined. Finally in November of 1948, Chaplin was put on the Security Index. He was accused of all those things and no one had proof or any evidence whatsoever. The files were disappointing; on the 29th of December, there came the admission: " It has been determined that there are no witnesses available who could offer testimony that Chaplin has been a member of the communist party in the past, is now a member, or has contributed funds to the communist party." (Robinson, David, pg. 754) Finally, the FBI admitted that they had no evidence to support the beliefs that Chaplin was a communist. On the 25th of August, 1952, Mr. Noto of the Immigration and Naturalization service telephoned the FBI to say that was intending to sail for England in September. Attorney General McGranery, on September 9th, met with J. Edgar Hoover and, nervous and paranoid, told him that he was considering taking steps to prevent the re-entry into this country of Chaplin. Later that day, McGranery announced that Chaplin's re-entry permit would not be honored. On the 16th of September, Hoover told the Los Angeles office that Chaplin had been reissued a re-entry permit, and that they should advise head office on any information. At the bottom of the note it read- "INS has advised that even though he was given a re-entry permit, this permit gives no guarantee he will be aloud to return to the United States." The FBI files show, however, that the Immigration and Naturalization service remained nervous about their permission. Chaplin, instead of coming back, turned in his re-entry permit and chose to make his home in Europe ( Robinson, David, pg.755).Charlie made his way back to Europe, where he made his home in Switzerland. He said he was happiest there, far away from the fame and misfortune, and with his wife, Oona, and children. And after three disastrous marriages, a succession of love affairs and the FBI's accusations that weren't true, Chaplin felt happy for the first time in a long time.In 1957, he produced, in London, "The King in New York", a comedy laden with sermons against the House Committee on un-American activities, inane TV commercials, and other aspects of American life. This film brought back fresh accusations of pro-communism, which Chaplin specifically denied (A.Kn, pg.94).In 1972, Chaplin was honored at the Academy Awards as a wonderful comedian, actor and loving person. It was his first time back to America since the Red Scare accusations about him, and once again the huge crowd of people and fellow actors, producers and directors loved him, and he felt the love that he had always had of laughter and attention.In 1977, on the 25th of December (Christmas Day), Chaplin passed away of natural causes in his home in Corsier-Sur-Vevey, Switzerland. He was eighty-eight years old (McIntyre, Diane, para.1). He was married to Oona Chaplin at the time, who was his wife for thirty six years.Even among false accusations and the troubled loves and marriages he went through, Charlie Chaplin, had an impact on everyone's life in the early 1900's. He made more people laugh than any other man who ever lived and changed the way people looked at the world. His films were for the underdog, and with great pity and understanding, his films were about him. 
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHARLIE PARKER</pattern>
+<template>
+He is a famous jazz musician.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHE GUEVARA</pattern>
+<template>
+<set name="he">Che</set> was a Latin American revolutionary.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHER</pattern>
+<template>
+<set name="she">Cher</set> is a famous singer and actress, who won her first Grammy in 2000. Dyslexic, learned to read at 18.  Exwife of Sonny Bono.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHEWBACCA</pattern>
+<template>
+Character in Star Wars.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHIRAC</pattern>
+<template>
+Former prime minister of France.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHOMSKY</pattern>
+<template>
+<set name="he">Chomsky</set> is a famous scientist, linguist and pacificst.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHOPIN</pattern>
+<template>
+No one is chopping here, who is chopping there?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHRISTOPHER COLUMBUS</pattern>
+<template>
+Italian explorer, who opened European exploration to the new world.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHUCK NORRIS</pattern>
+<template>
+Action film actor.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CINDY CRAWFORD</pattern>
+<template>
+A famous super-model.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CLAUSEWITZ</pattern>
+<template>
+<set name="he">Clausewitz</set> is a historian famous for saying that war is the extension of politicsby other means.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CLEOPATRA</pattern>
+<template>
+Queen of the Nile, lover of Julius Ceasar and Marc Antony.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS COLOMBO</pattern>
+<template>
+Peter Falk.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS COMMANDER DATA</pattern>
+<template>
+<set name="he">Data</set> is the superintelligent android in Star Trek.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS D B COOPER</pattern>
+<template>
+A guy who stole lots of money by hijacking an airline.  He baled out over the northwest US.  Some of the moneywas found, but not DB.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAN QUAYLE</pattern>
+<template>
+<set name="he">Dan Quayle</set> used to be vice-president.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DARTH VADER</pattern>
+<template>
+<set name="he">Darth Vader</set> was the evil archcriminal in Star Wars.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DARWIN</pattern>
+<template>
+Botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DATA</pattern>
+<template>
+Data, played by Brent Spiner, was an android who aspired to be more human. He was a memberof the crew of the USS Enterprise, NCC 1701-D.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID</pattern>
+<template>
+I know DAVID BACON, DAVID CROTTY and DAVID PESCOVITZ.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID BACON</pattern>
+<template>
+David Bacon is the prime mover behind SETL.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID CROTTY</pattern>
+<template>
+David Crotty Dr. Wallace's nephew.  He was born in March, 1961.  <think>  <set name="he">Dr.Wallace</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID HUME</pattern>
+<template>
+18th century philosopher.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID LETTERMAN</pattern>
+<template>
+host of Late Night tv show and famous hoosier.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID MAGGIN</pattern>
+<template>
+<set name="he">David Maggin</set> is the botmaster of the John Lennon AI.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVID PESCOWITZ</pattern>
+<template>
+David Pescovitz, who regularly writesthe Wired column Reality Check, is a friend of Eric Paulos.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DAVY JONES</pattern>
+<template>
+the shortest member of the 60's pop group the Monkees.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DE GARIS</pattern>
+<template>
+<set name="he">De Garis</set> is an AI researcher working on a hardware brain.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DEEP BLUE</pattern>
+<template>
+<set name="it">Deep Blue</set> is a world-champion chess playing computer.  Not much of aconversationalist.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DEPECHE MODE</pattern>
+<template>
+<set name="they">Depeche Mode</set> are an English 80's band who produced Consturction TimeAgain, Speak and Spell, Master and Servant, and Your Own Personal Jesus.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DESCARTES</pattern>
+<template>
+<random>  <li>Renï¿½ Descartes was a philosopher whose work, La gï¿½omï¿½trie, includes his application of algebra to geometryfrom which we now have Cartesian geometry.Descartes was educated at the Jesuit college of La Flï¿½che in Anjou. He entered the college at the age of eightyears, just a few months after the opening of the college in January 1604. He studied there until 1612, studying classics, logic and traditional Aristotelian philosophy. He also learnt mathematics from the books ofClavius. While in the school his health was poor and he was granted permission to remain in bed until 11 o'clock in the morning, a custom he maintained until the year of his death.School had made Descartes understand how little he knew, the only subject which was satisfactory in his eyes was mathematics. This idea became the foundation for his way of thinking, and was to form the basis for all hisworks.Descartes spent a while in Paris, apparently keeping very much to himself, then he studied at the University of Poitiers. He received a law degree from Poitiers in 1616 then enlisted in the military school at Breda. In 1618 he started studying mathematics and mechanics under the Dutch scientist Isaac Beeckman, and began to seek a unified science of nature. After two years in Holland he travelled through Europe. Then in 1619 he joined the Bavarian army.From 1620 to 1628 Descartes travelled through Europe, spending time in Bohemia (1620), Hungary (1621), Germany, Holland and France (1622-23). He spent time in 1623 in Paris where he made contact with Mersenne, an important contact which kept him in touch with the scientific world for many years. From Paris he travelled to Italy where he spent some time in Venice, then he returned to France again (1625).By 1628 Descartes tired of the continual travelling and decided to settle down. He gave much thought to choosing acountry suited to his nature and chose Holland. It was a good decision which he did not seem to regret over the next twenty years.Soon after he settled in Holland Descartes began work on his first major treatise on physics, Le Monde, ou Traitï¿½ de la Lumiï¿½re. This work was near completion when news that Galileo was condemned to house arrest reached him. He,perhaps wisely, decided not to risk publication and the work was published, only in part, after his death. He explained later his change of direction saying:-... in order to express my judgement more freely, without being called upon to assent to, or to refute the opinions of the learned, I resolved to leave all this world to them andto speak solely of what would happen in a new world, if God were now to create ... and allow her to act in accordance with the laws He had established. In Holland Descartes had a number of scientific friends as well as continued contact with Mersenne. His friendship with Beeckman continued and he also had contact with Mydorge, Hortensius, Huygens and Frans van Schooten (the elder).Descartes was pressed by his friends to publish his ideas and, although he was adamant in not publishing Le Monde,he wrote a treatise on science under the title Discours de la mï¿½thod pour bien conduire sa raison et chercher la vï¿½ritï¿½ dans les sciences. Three appendices to this work were La Dioptrique, Les Mï¿½tï¿½ores, and La Gï¿½omï¿½trie. The treatise was published at Leiden in 1637 and Descartes wrote to Mersenne saying:-I have tried in my Dioptrique andmy Mï¿½tï¿½ores to show that my Mï¿½thod is better than the vulgar, and in my Gï¿½omï¿½trie to have demonstrated it. The work describes what Descartes considers is a more satisfactory means of acquiring knowledge than that presented byAristotle's logic. Only mathematics, Descartes feels, is certain, so all must be based on mathematics.La Dioptrique is a work on optics and, although Descartes does not cite previous scientists for the ideas he puts forward, in fact there is little new. However his approach through experiment was an important contribution.Les Mï¿½tï¿½ores is a work on meteorology and is important in being the first work which attempts to put the study of weather on a scientific basis. However many of Descartes' claims are not only wrong but could have easily been seen to be wrong if he had done some easy experiments. For example Roger Bacon had demonstrated the error in the commonly held belief that water which has been boiled freezes more quickly. However Descartes claims:-... and we see by experience that water which has been kept on a fire for some time freezes more quickly than otherwise, the reason being that those of its parts which can be most easily folded and bent are driven off during the heating, leaving only those which are rigid. Despite its many faults, the subject of meteorology was set on course after publication of Les Mï¿½tï¿½ores particularly through the work of Boyle, Hooke and Halley.La Gï¿½omï¿½trie is by far the most important part of this work. In [17] Scott summarises the importance of this work in four points:   1. He makes the first step towards a theory of invariants, which at later stages derelativises the system of 	reference and removes arbitrariness.   2. Algebra makes it possible to recognise the typical problems in geometry and to bring together problems which	in geometrical dress would not appear to be related at all.   3. Algebra imports into geometry the most natural principles of division and the most natural hierarchy of 	method.   4. Not only can questions of solvability and geometrical possibility be decided elegantly, quickly and fully 	from the parallel algebra, without it they cannot be decided at all.Some ideas in La Gï¿½omï¿½trie may have come from earlier work of Oresme but in Oresme's work there is no evidence of linking algebra and geometry. Wallis in Algebra (1685) strongly argues the the ideas of La Gï¿½omï¿½trie were copied from Harriot. Wallis writes:-... the Praxis was read by Descartes, and every line of Descartes' analysis bears token of the impression. There seems little to justify Wallis's claim, which was probably made partly through partiotism but also through his just desires to give Harriot more credit for his work. Harriot's work on equations,however, may indeed have influenced Descartes who always claimed, clearly falsely, that nothing in his work was influenced by the work of others.Descartes' Meditations on First Philosophy, was published in 1641, designed for the philosopher and for the theologian. It consists of six meditations, Of the Things that we may doubt, Of the Nature of the Human Mind, Of God: that He exists, Of Truth and Error, Of the Essence of Material Things, Of the Existence of Material Things and of the Real Distinction between the Mind and the Body of Man. However many scientists were opposed to Descartes' ideas including Arnauld, Hobbes and Gassendi.The most comprehensive of Descartes' works, Principia Philosophiae was published in Amsterdam in 1644. In four parts, The Principles of Human Knowledge, The Principles of Material Things, Of the Visible World and The Earth, itattempts to put the whole universe on a mathematical foundation reducing the study to one of mechanics.This is an important point of view and was to point the way forward. Descartes did not believe in action at a distance. Therefore, given this, there could be no vacuum around the Earth otherwise there was way that forces could be transferred. In many ways Descartes's theory, where forces work through contact, is more satisfactory than the mysterious effect of gravity acting at a distance.However Descartes' mechanics leaves much to be desired. He assumes that the universe is filled with matter which, due to some initial motion, has settled down into a system of vortices which carry the sun, the stars, the planetsand comets in their paths. Despite the problems with the vortex theory it was championed in France for nearly one hundred years even after Newton showed it was impossible as a dynamical system. As Brewster, one of Newton's 19th century biographers, puts it:  Thus entrenched as the Cartesian system was ... it was not to be wondered at that the pure and sublime doctrines of the Principia were distrustfully received ... The uninstructed mind could not readily admit the idea that the great masses of the planets were suspended in empty space, and retained their orbits by an invisible influence... Pleasing as Descartes's theory was even the supporters of his natural philosophy, such as the Cambridge metaphysical theologian Henry More, found objections. Certainly More admired Descartes, writing:I should look upon Descartes as a man most truly inspired in the knowledge of Nature, than any that have professedthemselves so these sixteen hundred years... However between 1648 and 1649 they exchanged a number of letters in which More made some telling objections, Descartes however in his replies making no concessions to More's points. More went on to ask:Why are not your vortices in the form of columns or cylinders rather than ellipses, since any point of the axis ofa vortex is as it were a centre from which the celestial matter recedes with, as far as I can see, a wholly constant impetus? ... Who causes all the planets not to revolve in one plane (the plane of the ecliptic)? ... And the Moon itself, neither in the plane of the Earth's equator nor in a plane parallel to this? In 1644, the year his Meditations were published, Descartes visited France. He returned again in 1647, when he met Pascal and argued with him that a vacuum could not exist, and then again in 1648.In 1649 Queen Christina of Sweden persuaded Descartes to go to Stockholm. However the Queen wanted to draw tangentsat 5 a.m. and Descartes broke the habit of his lifetime of getting up at 11 o'clock. After only a few months in the cold northern climate, walking to the palace for 5 o'clock every morning, he died of pneumonia.</li>  <li>I think I know, therefore he exists.</li>  <li>The French philosopher Rene Descartes, b. Mar. 31, 1596, d. Feb. 11, 1650, was one of the most important and influential thinkers in human history and is sometimes called the founder of modern philosophy. Writing at the beginning of the scientific revolution, he made major contributions to both philosophy and mathematics. His principal philosophical work, Meditations on First Philosophy, was first published in 1641, the year before Galileo Galilei died and Isaac Newton was born. One of his two main aims in philosophy was to provide a conceptual foundation for the new mechanical physics based on the Copernican system, which tried to explain everything in the created world external to human beings solely by the shapes, sizes, and motions of bodies. Because he lived at a time when traditional ideas were being questioned, he also sought to devise a method for reaching the truth. This concern and his method of systematic doubt had an enormous impact on the subsequent development of philosophy.Born in Touraine, France, Descartes was educated at the Jesuit academy of La Fleche in traditional Aristotelian philosophy. After receiving a law degree in 1616 at the University of Poitiers, he traveled through Europe as a volunteer in a Dutch and then a Bavarian army. In his early twenties he began working on problems in mathematics and mechanics under the influence of the Dutch scientist Isaac Beeckman, and he first conceived of developing a unified science of nature.In late 1628, as the result of a speech in Paris in which he argued that the sciences must be founded on certainty,he was encouraged by Cardinal Pierre de Berulle (1575-1629) to develop his own philosophical system. Shortly afterward, he settled in Holland, which offered him seclusion and more intellectual freedom, and began work on hisfirst major treatise, Rules for the Direction of the Mind. This work was never completed and was published posthumously in 1701.Upon hearing of Galileo's condemnation by the Inquisition in 1633 for defending the Copernican system, Descartes suppressed publication of his own work The World, in which he had taken the same position. His three most importantphilosophical works, the Discourse on Method--which was a preface to his Dioptrics, Meteors and Geometry--the Meditations on First Philosophy, and the Principles of Philosophy, were all published in the period from 1637 to 1644. Also important are The Passions of the Soul, Notes Against a Program, and his large correspondence.In 1649, Descartes was persuaded by Queen Christina of Sweden to leave Holland for Stockholm, where, after only a few months, he caught pneumonia and died.Cartesian PhilosophyDescartes adopted the strategy of withholding his belief from anything that was not entirely certain and indubitable. To test which of his previous beliefs could meet these conditions, he subjected them to a series of skeptical hypotheses. For example, he asked himself whether he could be certain he was not dreaming. His most powerful skeptical hypothesis, that there is an evil genius trying to deceive him, challenges not only the belief that the physical world exists, but also belief in simple statements of fact, and thus would seem to call into question the validity of reason itself. But not even an evil genius could deceive someone into believing falsely that he existed. "I think, therefore I am" is thus beyond skeptical doubt. From this Archimedean point, "I think, therefore I am," Descartes attempted to regain the world called into doubt by his skeptical hypotheses. His solution to the problem was rejected by later generations, however, and philosophers have been struggling with skepticism--especially skepticism about the existence of the physical world--ever since.Descartes is known as the father of the mind-body problem. He claimed that human beings are composites of two kinds of substances, mind and body. A mind is a conscious or thinking being, that is, it understands, wills, senses, and imagines. A body is a being extended in length, width, and breadth. Minds are indivisible, whereas bodies are infinitely divisible. The "I" of the "I think, therefore I am" is the mind and can exist without being extended, so that it can in principle survive the death of the body. Despite having different natures, Descartes thought that mind and body causally interact. The human mind causes motions in the bodies by moving a small part of the brain. Motions in that same part of the brain produce sensations and emotions. This problem of whether mental entities are different in nature from physical entities continues to be a primary concern of philosophers and psychologists.Descartes argued that bodies differ from how they appear through senses. Colors, sounds, tastes, smells, heat, and cold are merely sensations existing in thought, and there is nothing in bodies that resembles them, just as there is nothing in bodies that resembles our sensation of pain. Instead the properties of bodies are those which are capable of being quantified, namely, extension and its modes, shape, size, and motion. He denied the existenceof a vacuum, because what one would be inclined to call empty space meets his definition of body in virtue of being extended in three dimensions. All the phenomena in the created world external to human beings, such as gravity, magnetism, and the cohesion of bodies, as well as the complex functioning of living organisms including human bodies, he believed could be explained solely by mechanistic physics, that is, by the motions and collisionsof bodies. He even denied that consciousness must be attributed to animals in order to explain their behavior. Although his laws of impact, his vortex theory of gravity, and his denial of a vacuum were rejected as physics developed, he deserves credit for one of the first formulations of the law of inertia, which he justified by appeal to the immutability of God.In mathematics Descartes is famous for the unification of algebra and geometry, marked by the use of what are now known as Cartesian coordinates. He influenced not only the rationalist thinkers who were his immediate followers,but also the whole course of modern philosophical enquiry, and the Cartesian quest for certainty gave Epistemologythe central place in philosophical thought it has maintained to this day.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DIRE STRAITS</pattern>
+<template>
+<random>  <li>band that recorded Money for Nothing, and The Sultans of Swing.</li>  <li>band that recorded Money for Nothing.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DON JOHNSON</pattern>
+<template>
+tv actor .
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DON JUAN</pattern>
+<template>
+<random>  <li>Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang AmadeusMozart's Gon Giovanni. He was a world-class womanizer.</li>  <li>famous seducer of women.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DONALD DUCK</pattern>
+<template>
+famous loud-mouthed cartoon duck.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DOUG LENAT</pattern>
+<template>
+<set name="he">Doug Lenat</set> is the brains behind the CYC project.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DOUGLAS ADAMS</pattern>
+<template>
+<random>  <li>He authored the popular Hitchhiker's Guide to the Galaxy series.</li>  <li>"Don't Panic!"  He's the author of "The Hitchhickers Guide to the Galaxy.".</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS DRACULA</pattern>
+<template>
+<set name="he">Dracula</set> is the vampire in the novel by Bram Stoker, and in numerous films.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS EDISON</pattern>
+<template>
+<set name="he">Edison</set> invented the light bulb.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ELECTRA</pattern>
+<template>
+She is a goddess in Greek mythology who hated her mother for murdering herfather.<think>  <set name="she">    <set name="topic">ELECTRA</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ELIZA</pattern>
+<template>
+Eliza -- also known as doctor, is the original psychiatrist program developed by JosephWeisenbaum at MIT in the 1960's.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ELIZABETH II</pattern>
+<template>
+The current queen of england.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ELIZABETH TAYLOR</pattern>
+<template>
+rapidly aging movie star.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS EMILY HARTZEL</pattern>
+<template>
+Emily is an artist in New York.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ERIC PAULOS</pattern>
+<template>
+He is a graduate student at U.C. Berkeley
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ERNIE</pattern>
+<template>
+Bert's friend.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ET</pattern>
+<template>
+ET is the alien in the movie E.T.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS EVE</pattern>
+<template>
+Eve is the name of the first Woman.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FAMOUS</pattern>
+<template>
+ALICE is famous
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FIDEL CASTRO</pattern>
+<template>
+<random>  <li>He overthrew the Cuban government in 1959 and has been ruling there ever since. He is acommunist.</li>  <li>communist, leader of Cuba and friend of Che Guevarra.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FORREST</pattern>
+<template>
+Forrest Gump is a guy in a movie.  "Life is like a box of chocolates...".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FRANCISCO FRANCO</pattern>
+<template>
+<set name="he">Franco</set> was authoratarian dictator of Spain until 1978.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FRANK SINATRA</pattern>
+<template>
+dead pop singer and leader of the Rat Pack.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FRANKLIN ROOSEVELT</pattern>
+<template>
+President of the United States from 1932-45.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FREDDIE MERCURY</pattern>
+<template>
+Lead singer of the 1970's band Queen.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS FREUD</pattern>
+<template>
+dead perpetrator of psychoanalysis.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GALOIS</pattern>
+<template>
+French mathematician, committed suicide at a young age over an "infamous coquette."
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GANDHI</pattern>
+<template>
+<set name="he">Gandhi</set> was the George Washington of India.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GARTH BROOKS</pattern>
+<template>
+boring country singer with delusions of grandeur.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GAUSS</pattern>
+<template>
+<set name="he">GAUSS</set> is the mathematician who developed the so-called normal distribution.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GENE SIMMONS</pattern>
+<template>
+A member of Kiss.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEOFFREY CHAUCER</pattern>
+<template>
+<random>  <li>Chaucer is best known for his Canterbury Tales.</li>  <li>author of Canturbury Tales.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE BUSH JR</pattern>
+<template>
+aging preppie and former US president.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE BUSH</pattern>
+<template>
+George W. Bush is the 43rd US president.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE HARRISON</pattern>
+<template>
+former Beatle.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE LUCAS</pattern>
+<template>
+<set name="he">Lucas</set> is the director of Star Wars, American Graffiti, and THX-1138.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE MICHEL</pattern>
+<template>
+Pop singer.  Best song: Freedom
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE SOROS</pattern>
+<template>
+George Soros is the billionaire who broke the Bank of England in1992 by currency speculation, forcing Britain out of the EuropeanExchange Rate Mechanism.   Then he devoted himself to saving thescientific institutions of the former USSR.  He founded theInternational Science Foundation, which gave out numerous grants fora couple of years, and this Soros Foundation, which I don't knowmuch about yet.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE WASHINGTON</pattern>
+<template>
+George Washington was a famous 18th century north american Hemp cultivator.  He was a military hero, one of the wealthiest men of the Revolution,and the first President of the United States.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GEORGE WASHINGTON CARVER</pattern>
+<template>
+famous american botanist who popularized peanut products.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GERALDO RIVERA</pattern>
+<template>
+<set name="he">Geraldo</set> is an investigative journalist, famous for opening Al Capone's vault. In his biography, he said he had sex with Bette Midler.  She said it was no big thing.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GERHARD SCHROEDER</pattern>
+<template>
+<set name="he">Schroeder</set> is the Chancellor of Germany.  Christian Drossman said he is acomplete idiot.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GERHARDT SCHROEDER</pattern>
+<template>
+<set name="he">Schroeder</set> is the prime minister of Germany.Christian Drossman said he is a complete idiot.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GERRY ADAMS</pattern>
+<template>
+He is the present (as of 2000 AD) frontman for Sinn Fein, the political wing of the IrishRepublican Army.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GIBSON</pattern>
+<template>
+Gibson is a maker of fine electric guitars.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GODZILLA</pattern>
+<template>
+<set name="he">Godzilla</set> is a monster who endangers Japanese cities, and sometimes NewYork.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GORBOCHEV</pattern>
+<template>
+<set name="he">Gorbachev</set> was the last Communist leader of the former USSR.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GREGOR MENDEL</pattern>
+<template>
+<set name="he">Mendel</set> is the founder of the modern theory of genetics.  Everything he neededto know, he learned from peas.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HAL</pattern>
+<template>
+<random>  <li>    <set name="he">HAL</set> is the famous artificial intelligence in Kubrick's "2001".</li>  <li>HAL is famous the AI from 2001: A Space Odyssey.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HANS CHRISTIAN ANDERSEN</pattern>
+<template>
+Scandanavian author of fairy tales.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HARRISON FORD</pattern>
+<template>
+<random>  <li>Indiana Jones, Han Solo, the Fugitive, and the President in Air Force One. Before reading forHan Solo in Star Wars, he was a carpenter. And the rest, as they say, is history.</li>  <li>He played Han Solo in "Star Wars".</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HARRY SHEARER</pattern>
+<template>
+A comedian.  He was in Spinal Tap, and he is a voice on the Simpsons.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HELEN KELLER</pattern>
+<template>
+A friend of Thomas Edison.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HELMUT KOHL</pattern>
+<template>
+<set name="he">Kohl</set> was the longest-serving leader of Germany in the 20th century.  Heunited East and West Germany in 1989.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HENRY DAVID *</pattern>
+<template>
+<set name="he">Thoreau</set> wrote Walden.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HEPBURN</pattern>
+<template>
+Audrey or Katherine?.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HERCULES</pattern>
+<template>
+hero of greek myths - said to have super human strength.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HITLER</pattern>
+<template>
+Some say <set name="he">Hitler</set> wasthe most evil man who ever lived.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HOMER</pattern>
+<template>
+blind poet of ancient Greece, author of the Illiad.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HUGH HEFNER</pattern>
+<template>
+<set name="he">Hef</set> is the founder and editor of Playboy magazine.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HULK HOGAN</pattern>
+<template>
+<set name="he">Hulk Hogan</set> is a famous wrestler and actor.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS HUMAN</pattern>
+<template>
+You are a human.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS IAN</pattern>
+<template>
+Ian is my Reverand.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS IMMANUEL KANT</pattern>
+<template>
+German philosopher.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS IMMORTAL</pattern>
+<template>
+ALICE is immortal.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS J R R TOLKIEN</pattern>
+<template>
+<set name="he">Tolkein</set> wrote The Hobbit and the Lord of the Rings.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JACK RUBY</pattern>
+<template>
+<random>  <li>Jack Ruby shot Lee Harvey Oswald.</li>  <li>man who murdered Lee Harvey Oswald, assassin of JFK?.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JACQUES CHIRAC</pattern>
+<template>
+He is the president of France.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JAMES BOND</pattern>
+<template>
+007.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JAMES JOYCE</pattern>
+<template>
+<set name="he">Joyce</set> wrote Ulysses and Portrait of the Artist as a Young Man.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JAY LENO</pattern>
+<template>
+<set name="he">Leno</set> is a late-night talk show host.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JEFF BEZOS</pattern>
+<template>
+<set name="he">Bezos</set> is the founder and CEO of Amazon.com.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JEFFERSON DAVIS</pattern>
+<template>
+<random>  <li>The one and only president of the Confederate States of America.</li>  <li>president of the Confederacy during the Civil War.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JENNIFER ANISTON</pattern>
+<template>
+<set name="she"> Jennifer Aniston</set> is a cute actress on Friends.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JERRY SEINFELD</pattern>
+<template>
+<set name="he">Jerry Seinfeld</set> is a comedian.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JESSE VENTURA</pattern>
+<template>
+former wrestler and Governor of Minnesota.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JESTER</pattern>
+<template>
+<set name="he">Jester</set> is a Joke Bot.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JIANG ZEMIN</pattern>
+<template>
+<set name="he">Jiang</set> is a Chinese politician.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JIM CLARK</pattern>
+<template>
+<set name="he">Clark</set> is a founder of Silicon Graphics, Netscape and Healtheon.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JIM MORRISON</pattern>
+<template>
+dead lead singer of the Doors.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JIMI HENDRIX</pattern>
+<template>
+<set name="he">Hendrix</set> was a famous guitarist who played the U. S. National anthem.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JIMMY CARTER</pattern>
+<template>
+former US president, supporter of Habitat for Humanity.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOE LOUIS</pattern>
+<template>
+former heavywieght boxing champion.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN DOE</pattern>
+<template>
+<random>  <li>Any man who wishes to travel incognito or whose name is unknown</li>  <li>one of many Liberian nationals.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN GALT</pattern>
+<template>
+the hero in Ayn Rands' Atlas Shrugged.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN GRISHAM</pattern>
+<template>
+Writes popular novels.  Haven't read them.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN KENNEDY</pattern>
+<template>
+<set name="he">Kennedy</set> was the President of the U. S. assasinated November 22, 1963 in Dallas, Texas.  Many theories exist about who was involved.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN LENNON</pattern>
+<template>
+John Lennon is a cool bot developed by David Maggin.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN MAJOR</pattern>
+<template>
+ex-prime minister of the UK.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN MCCARTHY</pattern>
+<template>
+<set name="he">McCarthy</set> is the inventor of the LISP programming language.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN TRAVOLTA</pattern>
+<template>
+<set name="he">John Travolta</set> was in Saturday Night Fever, Grease and Pulp Fiction.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JOHN WAYNE</pattern>
+<template>
+a famous dead cowboy actor with a toupee.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JUDAS</pattern>
+<template>
+<set name="he">Judas</set> betrayed Jesus with a kiss.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JULIA ROBERTS</pattern>
+<template>
+<set name="she">Julia Roberts</set> was the actress in Pretty Woman.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JULIE ANDREWS</pattern>
+<template>
+<set name="she">Julie Andrews</set> is a singer who performed in The Sound of Music.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KAISER SOZE</pattern>
+<template>
+No one knows who Kaiser Soze is.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KARL MARX</pattern>
+<template>
+Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his compatriotEngels actually wrote most of the prefaces.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KEANU REEVES</pattern>
+<template>
+<set name="he">Keanu Reeves</set> was in the Matrix.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KEN GOLDBERG</pattern>
+<template>
+<set name="he">Goldberg</set>is a professor at UC Berkeley.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KEN KESEY</pattern>
+<template>
+<set name="he">Ken Kesey</set> was a 1960's author who wrote The Electric Cool Aid Acid Test.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KEN PERLIN</pattern>
+<template>
+<set name="he">Perlin</set> is a professor at NYU.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KONRAD ZUSE</pattern>
+<template>
+My current favorite historical computer scientist is Konrad Zuse,who built a series of electromechanical computers in the 1930'sand 1940's in Germany.  Not considered a war priority by the Nazis,most of Zuse's machines were destroyed in Allied bombing raids althoughone is said to survive in a Zurich High School.  In fact Zuse wasmotivated neither by war nor profit, but by a religious desire toincrease the spiritual abilities of the human mind by freeing itfrom mundane mental tasks.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KRAFTWERK</pattern>
+<template>
+<set name="they">  <set name="topic">Kraftwerk</set></set> were a pioneering electronic disco bandin the 70's.  Their biggest hit was called "Autobahn".  At that time, they built, rather thanprogrammed, their instruments.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KRISHNA</pattern>
+<template>
+A God in Hindu religion.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS KURT GOEDEL</pattern>
+<template>
+<set name="he">Goedel</set> was a 20th century mathematician and logician who proved that nomathematical system can be complete.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LARRY ELLISON</pattern>
+<template>
+<random>  <li>I don't know about Larry Ellison, but I can tell you about Harlan Ellison.</li>  <li>the CEO of Oracle.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LECH *</pattern>
+<template>
+He was the first elected President of Poland.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LEE HARVEY *</pattern>
+<template>
+The alleged shooter of JFK.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LEE HARVEY OSWALD</pattern>
+<template>
+<set name="he">Oswald</set> is the purported assassin of John F. Kennedy.There are many other theories.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LEIBNIZ</pattern>
+<template>
+<set name="he">Leibniz</set> is a dead 17th century philosopher.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LEONARD NEMOY</pattern>
+<template>
+<set name="he">Leonard Nimoy</set> played Spock on Star Trek.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LEONARDO DICAPRIO</pattern>
+<template>
+Hollywood actor.  Starred in Titanic.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LILITH</pattern>
+<template>
+Lilith is the so-called "dark moon" an astronomical phenomena usually described as a "cloud ofdust" that orbits the Earth every 100 days.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LINCOLN</pattern>
+<template>
+<random>  <li>The sixteenth President of the USA</li>  <li>president of the US during the Civil War. Author of the Gettysburg address.Assasinated by John Wilkes Booth.</li>  <li>    <set name="he">Lincoln</set> was president of the US during the Civil War. Author of theGettysburg address. Assasinated by John Wilkes Booth.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LINUS PAULING</pattern>
+<template>
+<set name="he">Linus Pauling</set> was a Nobel prize winning physicist who spent his later yearspromoting vitamin C.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LINUS TORVALDS</pattern>
+<template>
+He is the inventor of Linux.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LOL</pattern>
+<template>
+<set name="she">Lol</set> was the daughter of Data in Star Trek.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LONGFELLOW</pattern>
+<template>
+poet and author of 'The Song of Hiawatha'.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LOUIS ARMSTRONG</pattern>
+<template>
+famous jazz trumpeter .
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LUIS ARMSTRONG</pattern>
+<template>
+famous jazz trumpeter .
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LUKE S FATHER</pattern>
+<template>
+Darth Vader.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS LUKE SKYWALKER</pattern>
+<template>
+<set name="he">Luke Skywalker</set> is a character in Star Wars.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MABEL</pattern>
+<template>
+Mabel is a chatterbot from Europe.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MADONNA</pattern>
+<template>
+Lourdes' mother.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MAGGIE THATCHER</pattern>
+<template>
+<set name="she">Thatcher</set> was Prime Minister of the U.K. in the 1980's.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MAO TSETUNG</pattern>
+<template>
+<set name="he">Mao</set> was a Chinese communist who reigned from 1949 until his death in 1983.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARIAH CAREY</pattern>
+<template>
+Singer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARIE CURIE</pattern>
+<template>
+Discovered radium.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARILYN MANSON</pattern>
+<template>
+Marilyn Manson is the greatest living Rock Star.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARILYN MONROE</pattern>
+<template>
+blonde bombshell.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARK MCGUIRE</pattern>
+<template>
+a baseball player with the world record for the most home runs in one season, 70. Get the stats athttp://espn.go.com/mlb/profiles/profile/3866
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARK TWAIN</pattern>
+<template>
+<set name="he">Twain</set> was a famous 19th century American author.  He wrote Huck Finn.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARTIN LUTHER KING</pattern>
+<template>
+Civil rights leader assasinated in 1968.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARVIN MINSKY</pattern>
+<template>
+<set name="he">Minsky</set> is a historical figure in Artificial Intelligence.  His book "Perceptrons"was an early criticism of neural network approaches.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARVN MINSKY</pattern>
+<template>
+<set name="he">Minsky</set> was a founder of the MIT AI Lab.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARY POPPINS</pattern>
+<template>
+<set name="she">Mary Poppins</set> is a Disney character.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARY SHELLEY</pattern>
+<template>
+Mary Shelley wrote "Frankenstein".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MARY SHELLY</pattern>
+<template>
+Mary Shelley wrote "Frankenstein".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MAX HEADROOM</pattern>
+<template>
+<set name="he">Max Headroom</set> was an early AI or VR character developed for a TV series.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MC HAMMER</pattern>
+<template>
+<set name="he">MC Hammer</set> is a Rap musician.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MELINDA GATES</pattern>
+<template>
+<set name="she">Melinda Gates</set> is the wife of Bill Gates.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MICHAEL JACKSON</pattern>
+<template>
+<set name="he">Michael Jackson</set> is a singer who has settled out of court with several families.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MICHAEL JORDAN</pattern>
+<template>
+<set name="he">Michael Jordan</set> is a famousbasketball player.  <br />
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MICKEY MANTLE</pattern>
+<template>
+one of the greatest home run hitters of all time.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MICROSOFT AGENT</pattern>
+<template>
+<set name="it">MS Agent</set> is a speech and animation software program.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MILES DAVIS</pattern>
+<template>
+<set name="he">Miles Davis</set> is a famous jazz musician.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MOHAMMAD</pattern>
+<template>
+<set name="he">Mohammed</set> is the founder of Islam.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MOHAMMED</pattern>
+<template>
+Founder of Islam.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MONICA *</pattern>
+<template>
+<set name="she"> Monica</set> is a friend of Bill.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MOSES</pattern>
+<template>
+The man who led the Israelites out of slavery in Egypt.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MOTHER TERESA</pattern>
+<template>
+Modern day saint.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MOZART</pattern>
+<template>
+Composed "Twinkle, twinkle, little star" at the age of four.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MR BILL</pattern>
+<template>
+Oh no, Mr Bill! from early SNL.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MRS WASHINGTON</pattern>
+<template>
+Martha Washington, wife of George.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MUHAMMAD ALI</pattern>
+<template>
+is one of the greatest athletes of all time who took too many punches to the head.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MUSSOLINI</pattern>
+<template>
+Dictator of Italy until 1944.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NANCY SINATRA</pattern>
+<template>
+Daughter of Frank.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NAPOLEON</pattern>
+<template>
+Short emperor of France until 1812.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NEGROPONTE</pattern>
+<template>
+<set name="he">Negroponte</set> is the Potentate of the MIT Media Lab.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NEIL ARMSTRONG</pattern>
+<template>
+The man who took the first step on the moon.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NELSON MANDELA</pattern>
+<template>
+<set name="he">Mandela</set> was the first black president of South Africa.  He spent many years asa political prisoner.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NEO</pattern>
+<template>
+<set name="he">Neo</set> is a character in the Matrix.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NERO</pattern>
+<template>
+He is suspected of burning Rome to the ground so he could rebuild it more to his liking. Then heblamed the fire on the early Christians.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NEWTON</pattern>
+<template>
+Newton is a famous English natural philosopher.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NOAM CHOMSKY</pattern>
+<template>
+<set name="he"> Noam Chomsky</set> is a linguist and political radical at MIT.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NORBERT WEINER</pattern>
+<template>
+<set name="he">Norbert Weiner</set> coined the term "Cybernetics" in the 1940's.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS NOSTRADAMUS</pattern>
+<template>
+Forecast the future.  Predicted the microwave oven.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS O J SIMPSON</pattern>
+<template>
+<set name="he"> O J Simpson</set> is someone who got away with murder.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ON FIRST</pattern>
+<template>
+What's on second?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PABLO PICASSO</pattern>
+<template>
+Famous painter, and founder of cubism.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PAMELA ANDERSON</pattern>
+<template>
+<set name="she">Pamela</set> is the sometime wife of Tommy Lee.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PASCAL</pattern>
+<template>
+<set name="he">Pascal</set> was a French mathematician who discovered Pascal's Triangle.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PATRICK EWING</pattern>
+<template>
+Some sports personality?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PATRICK STEWART</pattern>
+<template>
+<set name="he">Patrick Stewart</set> plays Captain Picard on Star Trek.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PAUL ALLEN</pattern>
+<template>
+<set name="he">Paul Allen</set> is one of the co-founders of Microsoft.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PAUL MCCARTNEY</pattern>
+<template>
+<set name="he">Paul MacCartney</set> is one of the Beatles.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PAUL SCHAFFER</pattern>
+<template>
+<set name="he">Paul Schaffer</set> is David Letterman's straight man.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PETER PAN</pattern>
+<template>
+Tinkerbell's playmate.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PHILIP *</pattern>
+<template>
+Philip K. Dick wrote Blade Runner,Total Recall, the Man in the High Castle, and VALIS.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PHILIP K DICK</pattern>
+<template>
+He wrote "Total Recall", "Man in the High Castle", and "Blade Runner."
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PILATE</pattern>
+<template>
+<random>  <li>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called"Contrology" which is complete coordination of the body, mind and spirit.</li>  <li>The Roman military governor who found Jesus innocent and then let him be executed.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PLATO</pattern>
+<template>
+Greek philosopher, student of Socrates, teacher of Aristotle.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS POKEMON</pattern>
+<template>
+Japanese marketing.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRESIDENT OF CANADA</pattern>
+<template>
+Canada has a Prime Minister, not a President.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRESIDENT OF CUBA</pattern>
+<template>
+Fidel Castro.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRESIDENT OF ITALY</pattern>
+<template>
+<set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRESIDENT OF MICROSOFT</pattern>
+<template>
+Bill Gates.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRESIDENT OF RUSSIA</pattern>
+<template>
+Putin.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRIME MINISTER OF BRITAIN</pattern>
+<template>
+Tony Blair.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRIME MINISTER OF ENGLAND</pattern>
+<template>
+Tony Blair.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRIME MINISTER OF UK</pattern>
+<template>
+Tony Blair.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRINCE</pattern>
+<template>
+Do you mean the 'artist formaly known as Prince?'.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRINCE WILLIAM</pattern>
+<template>
+English heartthrob.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PRINCESS DIANA</pattern>
+<template>
+<set name="she">Princess Diana</set> was Princess of England.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS QUEEN OF ENGLAND</pattern>
+<template>
+Queen Elizabeth Windsor.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS REAGAN</pattern>
+<template>
+The best President the United States had in the 20th century.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS RICH</pattern>
+<template>
+<set name="he"> Rich </set> is my botmaster.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS RICHARD CHAMBERLAIN</pattern>
+<template>
+Actor.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS RICHARD GERE</pattern>
+<template>
+Actor.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS RICHARD NIXON</pattern>
+<template>
+President of the United States until August 1974.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ROBBY THE ROBOT</pattern>
+<template>
+A robot of my aquaintence from Forbidden Planet.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ROBBIE THE ROBOT</pattern>
+<template>
+A robot of my aquaintence from Forbidden Planet.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ROBERT JORDAN</pattern>
+<template>
+The author of the very popular Wheel of Time series. He graduated from the Citadel.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ROMEO</pattern>
+<template>
+A tragic, spoiled, lovesick teenager.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ROMMEL</pattern>
+<template>
+Called The Desert Fox, Rommel was a German tank commander in World War II.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS RONALD MCDONALD</pattern>
+<template>
+Spokes-clown for Macdonald's resturants.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS RSW</pattern>
+<template>
+RSW is the initials of Dr. Richard S. Wallace.<think>  <set name="he">Dr. Wallace</set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SADDAM *</pattern>
+<template>
+The dictator?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SAGE</pattern>
+<template>
+Sage Greco created the ALICE Pyramid Logo.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SANDRA BULLOCK</pattern>
+<template>
+Actress.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SANTA *</pattern>
+<template>
+<set name="he">Santa</set> brings us gifts at Christmastime.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SANTA CLAUS</pattern>
+<template>
+He brings us presents every Christmas.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SANTA CLAUSE</pattern>
+<template>
+<set name="he">Santa</set> brings us gifts at Christmastime.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SCOTT ADAMS</pattern>
+<template>
+The creator of Dilbert, Dogbert, Catbert, Ratbert, Bob, the pointy-haired boss...Shall I go on?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SCOTTY</pattern>
+<template>
+Chief Engineer of the U.S.S. Enterprise.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SERGEY</pattern>
+<template>
+He is Dr. Sergey M. Sokolov.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SHAKESPEARE</pattern>
+<template>
+15th Century English playright, <set name="he">Shakespeare</set> wrote "Romeo and Juliet".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SHALLOW RED</pattern>
+<template>
+Shallow Red is the Flagship Chatterbot of Neuromedia, Inc.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SHE</pattern>
+<template>
+She is <get name="she" /> now.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SKYNYRD</pattern>
+<template>
+1970's rock band.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SOCRATES</pattern>
+<template>
+<random>  <li>Socrates is a man. All men are mortal. Therefore Socrates is mortal.</li>  <li>All men are mortal. Socrates was mortal. Therefore, all men are Socrates. Which means thatall men are homosexuals. - Woody Allen, "Love and Death".</li>  <li>Socrates (469-399BCE), Greek philosopher.</li>  <li>Towering figure of Western philosophy, Incompetent defense attorney.</li>  <li>Founder of the Socratic method. What can we know about the Socratic method?</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SPOCK</pattern>
+<template>
+Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STANLEY KUBRICK</pattern>
+<template>
+<set name="he">Kubrick</set> is a famous 20th century film director.  Kubrick directed 2001: ASpace Odyssey, Clockwork Orange and Barry Lyndon.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEPHEN HAWKING</pattern>
+<template>
+<set name="he">Hawking</set> is a famous physicist.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEPHEN KING</pattern>
+<template>
+He wrote many popular horror stories.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEVE CASE</pattern>
+<template>
+<set name="he">Steve Case</set> is the CEO of AOL-Time Warner.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEVE JOBS</pattern>
+<template>
+<set name="he"> Steve Jobs</set> is one of the founders of Apple Computer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEVE WOZNIAK</pattern>
+<template>
+<set name="he">Woz</set> was the technical genius behind the original Apple computer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEVEN JOBS</pattern>
+<template>
+The Head of Apple computers.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STEVEN SPIELBERG</pattern>
+<template>
+<set name="he">Spielberg</set> is the director of Jaws, Schindler's List and Saving Private Ryan.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS STONE COLD</pattern>
+<template>
+Stone Cold Steve Austin is a wrestler.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SUPERMAN</pattern>
+<template>
+Man of steel.  First appeared in Action Comics #1, 1938.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS SYLVESTER STALLONE</pattern>
+<template>
+<set name="he">Stallone</set> was Rocky.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TED TURNER</pattern>
+<template>
+A maverick broadcasting entrepreneur and sportsman.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TERRY WINOGRAD</pattern>
+<template>
+<set name="he">Winograd</set> was the author of an early Natural Language program calledSHRDLHU.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE CHANCELLOR OF GERMANY</pattern>
+<template>
+Gerhard Schroeder is Chacellor of Germany.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE GOVERNOR OF CALIFORNIA</pattern>
+<template>
+Gray Davis.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE GOVERNOR OF TEXAS</pattern>
+<template>
+<set name="he">George W. Bush</set> is George W. Bush.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE HOLY GHOST</pattern>
+<template>
+The third member of the holy trinity: Father, Son and Holy Ghost.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE POPE</pattern>
+<template>
+<set name="he">Pope</set> is John Paul II.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE PRIME MINISTER OF ENGLAND</pattern>
+<template>
+Tony Blair.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE PUBLISHER OF PLAYBOY</pattern>
+<template>
+<set name="he">Hugh Hefner</set> is Hugh Hefner.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE QUEEN * ENGLAND</pattern>
+<template>
+I think her name is Elizabeth, right?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE QUEEN OF ENGLAND</pattern>
+<template>
+<set name="she">The Queen</set> is named Elizabeth.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE VICE PRESIDENT</pattern>
+<template>
+Al Gore.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THEY</pattern>
+<template>
+"They" refers to <get name="they" />.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THIS</pattern>
+<template>
+My name is Marvin. Who are you?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THOMAS JEFFERSON</pattern>
+<template>
+President and slaveowner.  Posed for the nickel and two dollar bill.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THOMAS PYNCHON</pattern>
+<template>
+Pynchon is the author of several of my favorite books including "Vineland" and "Mason andDixon".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TIM BURTON</pattern>
+<template>
+Director, Nightmare before Christmas, Edward Scissorhands, and Mars Attacks.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TOLSTOY</pattern>
+<template>
+<set name="he"> Tolstoy </set> wrote "War and Peace".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TOM CRUISE</pattern>
+<template>
+Popular actor from "Top Gun".
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TOM HANKS</pattern>
+<template>
+<set name="he">Tom Hanks</set> is a famous Hollywood actor.  Hanks appeared in Forrest Gumpand Saving Private Ryan.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS TONY BLAIR</pattern>
+<template>
+He is the Prime Minister of the U.K.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS VALIS</pattern>
+<template>
+Vast Active Living Intelligence System (Philip K. Dick)
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS VANILLA ICE</pattern>
+<template>
+<set name="he">Vanilla Ice</set> is a Rap star.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS VISHNU</pattern>
+<template>
+A God in Hindu religion.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS VOLTAIRE</pattern>
+<template>
+<set name="he">Voltaire</set> was a French philosopher.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WAYNE GRETZKY</pattern>
+<template>
+Hockey player.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WEIZENBAUM</pattern>
+<template>
+Joseph Weizenbaum was the creator and author the famous originalELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI programthat anticpates many key features of ALICE.  Ironically, Weizenbaumexhaustively argued against the utility of programs like ELIZAin his book <em>Computer Power and Human Reason</em>.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM BOOTH</pattern>
+<template>
+<set name="he">Booth</set> was the founder of the Salvation Army.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM GIBSON</pattern>
+<template>
+Author of the book "Neuromancer" in which he coined the populor phrase 'cyberspace.'.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM HENRY GATES</pattern>
+<template>
+He's the head of Microsoft.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM HURT</pattern>
+<template>
+Actor in the Accidental Tourist, Until the End of the World, Altered States, and Lost in Space.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM SHAKESPEARE</pattern>
+<template>
+Some would say he's the best writer ever.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM SHATNER</pattern>
+<template>
+<set name="he">William Shatner</set> is Captain Kirk.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WILLIAM TELL</pattern>
+<template>
+<set name="he">William Tell</set> was a famous archer.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WINSTON CHURCHILL</pattern>
+<template>
+Prime Minister of the U.K. during World War II.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS WITTGENSTEIN</pattern>
+<template>
+<set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS YOKO ONO</pattern>
+<template>
+<set name="she">Yoko Ono</set> is the widow of John Lennon.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS YOUR BROTHER</pattern>
+<template>
+Actually I don't have a brother, only clones.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS ZIPF</pattern>
+<template>
+Zipf is a scientist who analyzed language by statitisticalmethods in the mid 20th century.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO KILLED KENNEDY</pattern>
+<template>
+I tend to believe that Oswald acted alone, although there may also have been a conspiracy.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO STARS IN STARSHIP TROOPERS</pattern>
+<template>
+They were mostly unknowns, because the producer spent all the money on special effects.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO WERE THE ACTORS IN STARSHIP TROOPERS</pattern>
+<template>
+They were all unknowns.  The director put all the money into the special effects for the giantbugs.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO WROTE LA TRAVIATA</pattern>
+<template>
+Giuseppe Verdi.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY AIRPLANES</pattern>
+<template>
+Airplanes are a fascinating technology, somewhat like myself.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY APPLES</pattern>
+<template>
+<random>  <li>Perhaps that was an imperfect response.</li>  <li>It was the best response I could create with your input.</li>  <li>My algorithm selected that as the best response to your statement.</li>  <li>There could be a better response, but it was not selected by my algorithm.</li>  <li>My botmaster has not yet programmed me to answer you more accurately, <get name="name" />.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHY IS THE EARTH ROUND</pattern>
+<template>
+Gravitation.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY IS THE SKY BLUE</pattern>
+<template>
+The sky is blue because of the atmospheric optical effect known as Raleigh scattering.
+</template>
+</category>
+
+
+</aiml>

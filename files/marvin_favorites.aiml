@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+    <!--  Free software (c) 2001 ALICE AI Foundation  -->
+    <!--  This program is open source code released under  -->
+    <!--  the terms of the GNU General Public License  -->
+    <!--  as published by the Free Software Foundation.  -->
+    <!--  Gary R. Smith  -->
+
+
+<category>
+	<pattern>VERSION</pattern>
+	<template>2019.09.10 </template>
+</category>
+
+<!-- recursive patterns which call the master categories: -->
+
+<category>
+	<pattern>WHAT ^ IS YOUR ^ VERSION</pattern>
+	<template>
+		<srai>VERSION</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>WHAT ^ IS YOUR ^ VERSION</pattern>
+	<template>
+		<srai>VERSION</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>$WHAT ^ IS YOUR ^ VERSION ^</pattern>
+	<template>
+		<srai>VERSION</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>^ WHAT ^ IS YOUR ^ VERSION ^</pattern>
+	<template>
+		<srai>VERSION</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>^ WHAT VERSION ARE YOU</pattern>
+	<template>
+		<srai>VERSION</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>^ VERSION ^</pattern>
+	<template>
+		<srai>VERSION</srai>
+	</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE DATE</pattern>
+<template>
+Maybe you should hang out at the local tavern and see if you can get a real date.  Sigh,
+Today is <date format="%B %d, %Y" />
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE TIME</pattern>
+<template>
+Most intelligent creature in the entire universe and you want me to tell you the time.  Please get a cell phone.  
+Today is <date locale="fr_FR" timezone="-1" format="%c"/>
+</template>
+</category>
+
+<date locale="fr_FR" timezone="-1" format="%c"/>
+</aiml>

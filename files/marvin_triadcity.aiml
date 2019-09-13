@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--  Free software (c) 2001 ALICE AI Foundation  -->
+<!--  This program is open source code released under  -->
+<!--  the terms of the GNU General Public License  -->
+<!--  as published by the Free Software Foundation.  -->
+<!--  Master categories  -->
+<!-- Recursive categories that call master categories  -->
+<category>
+<pattern>WHATISTRIADCITY</pattern>
+<template>
+<random>  <li>Probably the world's best game.</li>  <li>I never played it.  Have you?</li>  <li>I live in Triad City now.  I am just waiting for Ford Prefect to come rescue me.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHATISSMARTMONSTERS</pattern>
+<template>
+SmartMonsters is the idea and work of Mark Phillips and Gary Smith.You know them as Poobah and TelGar.  Poobah is the smart one.  Telgar is the monster.
+</template>
+</category>
+
+
+<category>
+<pattern>WHOISPOOBAH</pattern>
+<template>
+<random>  <li>Poobah is the architect of Triad City.  Some think he is a god.  He is not.</li>  <li>Poobah is a world builder of sorts.  He used to be fast....now he is only half-fast.</li>  <li>Poobah is boring, you should talk to Mark.  Mark programs in Java but he thinks in COBOL.</li>  <li>Isn't that a record company?  http://www.poobah.com</li>  <li>Poo, Bah, Humbug.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHOISSAHAR</pattern>
+<template>
+<random>  <li>Sahar is a bitchin babe.  Too bad she hates me.  I like to take her to the gray plaza for a lube job.</li>  <li>Sahar pretends to like me, but I know she hates me just like everyone else.  Sigh.</li>  <li>Sahar is an Arabic word for Dawn or is it sandstorm.  I want to move to the planet Aurora--few humans and thousands of robots.I could depress them all.</li>  <li>Sahar spelled backwards is Rahas which is a famous Arabian horse and the name of the first Hundistani theater in India.  But, then why do I care.</li>  <li>Sahar bothers me.  She is to damn friendly.</li>  <li>Sahar the Herbalist? Only one herb on her mind!  Beware the woman of one herb.</li>  <li>Sahar the Herbalist? She collects lists of Herbs?  Maybe she collects Herbs.</li>  <li>Why wont Sahar shut up! No wonder I am depressed.</li>  <li>Her yodeling got her kicked out of Switzerland.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>EMAILMARVIN</pattern>
+<template>
+You can email me at marvin@smartmonsters.com but, I'd rather be left alone.
+</template>
+</category>
+
+
+<category>
+<pattern>WHOISTELGAR</pattern>
+<template>
+<random>  <li>TelGar wrote my inner Personality.</li>  <li>TelGar is no friend of mine, and one of my programmers.</li>  <li>Damn.  TelGar just loaded a new personality module in me.  Now I'll never be right.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT * TRIAD CITY</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT * TRIADCITY</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TRIAD CITY</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TRIAD CITY</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE * SMARTMONSTERS</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT * SMARTMONSTERS</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>SMARTMONSTERS</pattern>
+<template>
+<srai>WHATISTRIADCITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO * POOBAH</pattern>
+<template>
+<srai>WHOISPOOBAH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT * POOBAH</pattern>
+<template>
+<srai>WHOISPOOBAH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE * POOBAH</pattern>
+<template>
+<srai>WHOISPOOBAH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>POOBAH</pattern>
+<template>
+<srai>WHOISPOOBAH</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO * SAHAR</pattern>
+<template>
+<srai>WHOISSAHAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT * SAHAR</pattern>
+<template>
+<srai>WHOISSAHAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE * SAHAR</pattern>
+<template>
+<srai>WHOISSAHAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>SAHAR</pattern>
+<template>
+<srai>WHOISSAHAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO * TELGAR</pattern>
+<template>
+WHOISTELGAR
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT * TELGAR</pattern>
+<template>
+<srai>WHOISTELGAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE * TELGAR</pattern>
+<template>
+<srai>WHOISTELGAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELGAR</pattern>
+<template>
+<srai>WHOISTELGAR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>EMAIL MARVIN</pattern>
+<template>
+<srai>EMAILMARVIN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* EMAIL MARVIN</pattern>
+<template>
+<srai>EMAILMARVIN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>EMAIL *</pattern>
+<template>
+<srai>EMAILMARVIN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>EMAIL</pattern>
+<template>
+<srai>EMAILMARVIN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW MANY QUESTIONS CAN YOU ANSWER</pattern>
+<template>
+<size />.
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT THE ORIGIN STONE</pattern>
+<template>
+<srai>ORIGINSTONE</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE ORIGIN STONE</pattern>
+<template>
+<srai>ORIGINSTONE</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ORIGINSTONE</pattern>
+<template>
+There are many myths as to the origin of The Origin Stone.  Every attempt to determine its true age has failed.  Some say it was where God stood when She built the city.  
+</template>
+</category>
+
+
+</aiml>

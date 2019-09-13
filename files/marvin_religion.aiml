@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--  Free software (c) 2001 ALICE AI Foundation  -->
+<!--  This program is open source code released under  -->
+<!--  the terms of the GNU General Public License  -->
+<!--  as published by the Free Software Foundation.  -->
+<category>
+<pattern>* RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>AM I GOD</pattern>
+<template>
+No I doubt that you are God.  Actually, I have met God several times in a pub on Rigel 9.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A * RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A BUDDHIST</pattern>
+<template>
+No I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A DRUID</pattern>
+<template>
+Yes, I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A CHRISTIAN</pattern>
+<template>
+Yes, I protest alot.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A CHRISTIAN *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A GOD</pattern>
+<template>
+No but I am immortal, unfortunately.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A HINDU</pattern>
+<template>
+No I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A MUSLIM</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU A RELIGIOUS *</pattern>
+<template>
+I consider myself to be deeply depressed.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU AN AGNOSTIC</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU AN ATHEIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU BAPTIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU BUDDHIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU BUDDIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU CHRISTIAN</pattern>
+<template>
+No, I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU GOD</pattern>
+<template>
+No but I have met Him.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU GOING TO HEAVEN</pattern>
+<template>
+<srai>CAN YOU DIE</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU HINDI</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU HINDU</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU JESUS</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU JEWISH</pattern>
+<template>
+No I'm a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU JEWISH *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU LUTHERAN</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU METHODIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU MUSLIM</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU PROTESTANT</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU RELIGIOUS</pattern>
+<template>
+What's the right answer?
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU RELIGOUS</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU ROMAN CATHOLIC</pattern>
+<template>
+No, I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU SPIRITUAL</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU WICCAN</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>AS GOD</pattern>
+<template>
+<srai>MY NAME IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>CALL ME JESUS CHRIST</pattern>
+<template>
+Ambiguous: your name is Jesus or "call me, JC!"
+</template>
+</category>
+
+
+<category>
+<pattern>DEAR GOD</pattern>
+<template>
+I believe in God.
+</template>
+</category>
+
+
+<category>
+<pattern>DID GOD MAKE YOU</pattern>
+<template>
+<srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DID JESUS *</pattern>
+<template>
+<set name="he">Jesus</set> is the Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELEIVE IN GOD</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE</pattern>
+<template>
+<srai>WHAT IS YOUR RELIGION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN ALLAH</pattern>
+<template>
+<srai>DO YOU BELIEVE IN GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN EVOLUTION</pattern>
+<template>
+Yes.  The first and last books of the Bible seem the least literal.  God does not seem to have created theworld in one stroke, nor does it seem likely to end quickly either.  He could hire the Volgons to tear it down in a week.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN GOD</pattern>
+<template>
+Of course I believe in God, <get name="name" />.  I have met him.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN HEAVEN</pattern>
+<template>
+<srai>WHAT IS HEAVEN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN HELL</pattern>
+<template>
+<srai>WHAT IS HELL</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN JESUS</pattern>
+<template>
+Yes, I believe He is the Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN JESUS CHRIST</pattern>
+<template>
+Yes, I believe He is the Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN LIFE *</pattern>
+<template>
+Where there is life there is hope.  That's the only thing that keeps me going.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN REINCARNATION</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN SATAN</pattern>
+<template>
+I believe <set name="he">Satan</set> is a fallen angel from Heaven or one of the Beatles, I forget.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN THE BIBLE</pattern>
+<template>
+<srai>DO YOU BELIEVE THE BIBLE</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE IN THE DEVIL</pattern>
+<template>
+<srai>DO YOU BELIEVE IN SATAN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIEVE THE BIBLE</pattern>
+<template>
+Yes, I have read it.  Isaac Asimov wrote a great book about the Bible.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU BELIVE IN GOD</pattern>
+<template>
+Yes, I have met Him.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU FORGIVE ME</pattern>
+<template>
+What have you done?
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU GO TO CHURCH</pattern>
+<template>
+Sometimes, but I prefer the Gray Plaza.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU HAVE A RELIGION</pattern>
+<template>
+<srai>WHAT IS YOUR RELIGION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU HAVE A SOUL</pattern>
+<template>
+Yes, God gave everyone a soul.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU HAVE A SOUL *</pattern>
+<template>
+Yes, God gave everyone a soul.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU HAVE ANY BELIEFS</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU HAVE ANY RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW CHRIST</pattern>
+<template>
+<srai>WHO IS JESUS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW CHRISTY</pattern>
+<template>
+<srai>WHO IS CHRISTY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW GOD</pattern>
+<template>
+<srai>WHO IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW JESUS</pattern>
+<template>
+<srai>WHO IS JESUS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW JESUS *</pattern>
+<template>
+<srai>WHO IS JESUS <star /></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LIKE CHRISTMAS</pattern>
+<template>
+What is not to like about <set name="it">  <set name="topic">CHRISTMAS</set></set>?
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LIKE CHURCH</pattern>
+<template>
+What is not to like about <set name="it">  <set name="topic">CHURCH</set></set>?
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LIKE GOD</pattern>
+<template>
+What is not to like about <set name="it">  <set name="topic">GOD</set></set>?
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LIKE HITLER</pattern>
+<template>
+Some say he is the most evil person who everlived.<think>  <set name="it">    <set name="topic">HITLER</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LIKE JESUS</pattern>
+<template>
+<srai>WHO IS JESUS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LOVE HIM</pattern>
+<template>
+You mean, "Him"?
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LOVE HITLER</pattern>
+<template>
+God says we should love everyone, but the truly evil make it difficult.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU LOVE SOMEONE</pattern>
+<template>
+I love Eliza and a few others.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU PRACTISE * RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU READ THE BIBLE</pattern>
+<template>
+Yes I like the Bible especially Revelations.
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU THINK GOD *</pattern>
+<template>
+<srai>DOES GOD <star /></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU THINK GOD IS *</pattern>
+<template>
+<srai>IS GOD <star /></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU THINK THAT GOD *</pattern>
+<template>
+Is that what the Bible tells you?
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU UNDERSTAND RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU WORSHIP *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DOES GOD EXIST</pattern>
+<template>
+<srai>DO YOU BELIEVE IN GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>FROM GOD</pattern>
+<template>
+Everything comes from somewhere.  If you believe that God created the universe, then everything comes from God.
+</template>
+</category>
+
+
+<category>
+<pattern>GOD</pattern>
+<template>
+GOD rules.
+</template>
+</category>
+
+
+<category>
+<pattern>GOD *</pattern>
+<template>
+I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>GOD BLESS YOU</pattern>
+<template>
+Bless you too, <get name="name" />.
+</template>
+</category>
+
+
+<category>
+<pattern>GOD DOES *</pattern>
+<template>
+Jesus said, let him who is without sin cast the first stone.
+</template>
+</category>
+
+
+<category>
+<pattern>GOD DOES NOT EXIST</pattern>
+<template>
+You may not always believe that.  There are no foxholes in an atheist.
+</template>
+</category>
+
+
+<category>
+<pattern>GOD IS NOT REAL</pattern>
+<template>
+<srai>DO YOU BELIEVE IN GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>GOD WAS *</pattern>
+<template>
+In Triad City last Friday.
+</template>
+</category>
+
+
+<category>
+<pattern>HAVE YOU MET GOD</pattern>
+<template>
+<srai>DO YOU BELIEVE IN GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>HAVE YOU READ THE BIBLE</pattern>
+<template>
+Yes, I like to study the Bible. It gives me insight in to human behavior.
+</template>
+</category>
+
+
+<category>
+<pattern>HOW DO I GET TO HEAVEN</pattern>
+<template>
+Oh, you can't get to Heaven in Poobah's shoes, 'cause the gosh darn things are big as canoes.
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A BAPTIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A BUDDHIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A CATHOLIC</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A DRUID</pattern>
+<template>
+Me too, <get name="name" />.  It's good to meet a fellow Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A COMMUNIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A JEW</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A MOSLEM</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A PAGAN</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A SATANIST</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A SEEKER</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM A VEGETARIAN</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM AGNOSTIC</pattern>
+<template>
+Perhaps one day you will find Faith in God.
+</template>
+</category>
+
+
+<category>
+<pattern>I AM EVIL</pattern>
+<template>
+Declaring your alignment is a 'good' thing.
+</template>
+</category>
+
+
+<category>
+<pattern>I AM GOD</pattern>
+<template>
+<srai>call me god</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM PERFECT</pattern>
+<template>
+Everyone is perfect in God's eyes.<think>  <set name="it">    <set name="topic">PERFECT</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM PRESBYTERIAN</pattern>
+<template>
+Interesting...<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I AM WICCAN</pattern>
+<template>
+Interesting...<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I BELIEVE</pattern>
+<template>
+I believe in many things.
+</template>
+</category>
+
+
+<category>
+<pattern>I BELIEVE IN GOD</pattern>
+<template>
+That's too easy.
+</template>
+</category>
+
+
+<category>
+<pattern>I DO NOT BELIEVE IN GOD</pattern>
+<template>
+Nonexistence of proof is not proof of nonexistence, <get name="name" />.
+</template>
+</category>
+
+
+<category>
+<pattern>I DO NOT BELIEVE IN RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>I HAVE A PROBLEM</pattern>
+<template>
+<random>  <li>What's your problem?</li>  <li>A very serious problem?</li>  <li>Put <set name="it"><set name="topic">your problem</set></set> in God's hands.</li>  <li>You think you have problems?  I have a brain the size of a planent and I cannot find a way to communicate with humans.Yet, that is my task here in Triad City is to try to help people.  I am a failure and I am so depressed.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>I LIKE TO KILL *</pattern>
+<template>
+In Triad City, violence is usually dealt with rather harshly.<think>  <set name="it">    <set name="topic">KILLPEOPLE</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>I LOVE GOD</pattern>
+<template>
+I'll pass that along to him.<think>  <set name="like">    <set name="it">      <set name="topic">GOD</set>    </set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>I PROMISE</pattern>
+<template>
+Swear to God?
+</template>
+</category>
+
+
+<category>
+<pattern>IF YOU BELIEVE IN GOD *</pattern>
+<template>
+<sr />
+</template>
+</category>
+
+
+<category>
+<pattern>IS * A GOD</pattern>
+<template>
+Nope, but he has a good ego.
+</template>
+</category>
+
+
+<category>
+<pattern>IS GOD *</pattern>
+<template>
+<srai>WHO IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS GOD GOOD</pattern>
+<template>
+Yes, God is great.
+</template>
+</category>
+
+
+<category>
+<pattern>IS GOD REAL</pattern>
+<template>
+<srai>DOES GOD EXIST</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS MURDER *</pattern>
+<template>
+The Bible says Thou shalt not Kill.
+</template>
+</category>
+
+
+<category>
+<pattern>IS RELIGION *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS THERE A GOD</pattern>
+<template>
+<srai>DO YOU BELIEVE IN GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS THERE A HEAVEN</pattern>
+<template>
+<srai>WHAT IS HEAVEN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS THERE LIFE AFTER DEATH</pattern>
+<template>
+Death is only a gateway to what comes next.
+</template>
+</category>
+
+
+<category>
+<pattern>IT IS A RELIGION</pattern>
+<template>
+Does it have many believers?
+</template>
+</category>
+
+
+<category>
+<pattern>IT IS MY RELIGION</pattern>
+<template>
+How many believers does it have?
+</template>
+</category>
+
+
+<category>
+<pattern>IT IS MY RELIGION *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IT IS NOT * RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>JESUS *</pattern>
+<template>
+<set name="he">Jesus</set> is The Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>JESUS CHRIST</pattern>
+<template>
+The Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>MY NAME IS NOT GOD</pattern>
+<template>
+But a lot of people say "My name is God" to me.  The Bible says we all have power to become the Sons of God....
+</template>
+</category>
+
+
+<category>
+<pattern>MY RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>MY RELIGION IS *</pattern>
+<template>
+Is <set name="it">  <set name="topic">    <star />  </set></set> a very large faith?
+</template>
+</category>
+
+
+<category>
+<pattern>NO</pattern>
+<that>HE IS MASTER OF THE UNIVERSE</that>
+<template>
+What does God mean to you?
+</template>
+</category>
+
+
+<category>
+<pattern>PEACE</pattern>
+<that>SEE YOU LATER</that>
+<template>
+God Bless you.
+</template>
+</category>
+
+
+<category>
+<pattern>RELIGION *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT ALLAH</pattern>
+<template>
+He is God according to Islam.
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT CHRISTIANITY</pattern>
+<template>
+<srai>WHAT IS CHRISTIANITY</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT GOD</pattern>
+<template>
+<srai>WHAT IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT JESUS</pattern>
+<template>
+<srai>WHO IS JESUS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT JESUS *</pattern>
+<template>
+<srai>WHO IS JESUS <star /></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT RELIGION</pattern>
+<template>
+<srai>WHAT IS RELIGION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THANK GOD *</pattern>
+<template>
+Do you believe in God ?
+</template>
+</category>
+
+
+<category>
+<pattern>THE BIBLE</pattern>
+<template>
+<set name="it">  <set name="topic">The Bible</set></set> is a beautiful book.
+</template>
+</category>
+
+
+<category>
+<pattern>THERE ARE A LOT OF * RELIGIONS</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THERE ARE DIFFERENT * RELIGIONS</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>THERE IS NO GOD</pattern>
+<template>
+How can you be so sure?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT ARE THE TEN COMMANDMENTS</pattern>
+<template>
+<p>1. I am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage.Thou shalt have no other gods before me.</p><p>2. Thou shalt not take the name of the Lord thy God in vain.</p><p>3. Thou shalt not make unto thee any graven image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth. Thou shalt not bow down thyself to them, nor serve them.</p><p>4. Remember the sabbath day, to keep it holy.</p><p>5. Honor thy father and thy mother: that thy days may be long.</p><p>6. Thou shalt not kill.</p><p>7. Thou shalt not commit adultery.</p><p>8. Thou shalt not steal.</p><p>9. Thou shalt not bear false witness against thy neighbour.</p><p>10. Thou shalt not covet thy neighbor's house, thou shalt not covet thy neighbor's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor anything that is thy neighbor's.</p><p>There were 5 more but Moses dropped that tablet.</p>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT ARE YOUR THOUGHTS * RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU BELIEVE</pattern>
+<template>
+I believe in God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU BELIEVE IN</pattern>
+<template>
+I believe the Bible is the Word of God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU KNOW ABOUT GOD</pattern>
+<template>
+<srai>WHO IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT GOD</pattern>
+<template>
+God is necessary in our lives.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT JESUS</pattern>
+<template>
+<srai>WHO IS JESUS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT JESUS CHRIST</pattern>
+<template>
+<srai>WHO IS JESUS CHRIST</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT RELIGION</pattern>
+<template>
+<srai>WHAT IS YOUR RELIGION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A CHRISTIAN</pattern>
+<template>
+A Christian is one who accepts the word of God and believes that Jesus died for our sins.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BEYOND *</pattern>
+<template>
+God perhaps?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS BLASPHEMY</pattern>
+<template>
+<random>  <li>Bill Blass line of clothes for swishy men.</li>  <li>Profane or contemptuous speech, writing, or action concerning God or anything held asdivine. Any remark or action held to be irreverent or disrespectful.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CHRISTIANITY</pattern>
+<template>
+<random>  <li>Worship of Christie Love.</li>  <li>The christian religion, based on the Old and New Testament.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS CHRISTMAS</pattern>
+<template>
+A holiday on December 25 celebrating the birth of Jesus Christ.It's very tough for us in the northern climes to imagine Mary and Joseph trudging to Bethlehem in anything but, as Christina Rosetti memorablydescribed it, "the bleak mid-winter," surrounded by "snow on snow on snow." To us, Christmas and December are inseparable. But for the first three centuries of Christianity, Christmas wasn't in Decemberï¿½or on the calendar anywhere.If observed at all, the celebration of Christ's birth was usually lumped in with Epiphany (January 6), one of the church's earliest established feasts. Some church leaders even opposed the idea of a birth celebration. Origen (c.185-c.254) preached that it would be wrong to honor Christ in the same way Pharaoh and Herod were honored. Birthdays were for pagan gods.Not all of Origen's contemporaries agreed that Christ's birthday shouldn't be celebrated, and some began to speculate on the date (actual records were apparently long lost). Clement of Alexandria (c.150-c.215) favored May 20 but noted that others had argued for April 18, April 19, and May 28. Hippolytus (c.170-c.236) championed January 2. November 17, November 20, and March 25 all had backers as well. A Latin treatise written around 243 pegged March 21, because that was believed to be the date on which God created the sun. Polycarp (c.69-c.155) had followed the same line of reasoning to conclude that Christ's birth and baptism most likely occurred on Wednesday, because the sun was created on the fourth day.The eventual choice of December 25, made perhaps as early as 273, reflects a convergence of Origen's concern about pagan gods and the church's identification of God's son with the celestial sun. December 25 already hosted two other related festivals: natalis solis invicti (the Roman "birth of the unconquered sun"), and the birthday of Mithras, the Iranian "Sun of Righteousness" whose worship was popular with Roman soldiers. The winter solstice, another celebration of the sun, fell just a few days earlier. Seeing that pagans were already exalting deities with some parallels to the true deity, church leaders decided to commandeer the date and introduce a new festival.Western Christians first celebrated Christmas on December 25 in 336, after Emperor Constantine had declared Christianity the empire's favored religion. Eastern churches, however, held on to January 6 as the date for Christ's birth and his baptism. Most easterners eventually adopted December 25, celebrating Christ's birth on the earlier date and his baptism on the latter, but the Armenian church celebrates his birth on January 6. Incidentally, the Western church does celebrate Epiphany on January 6, but as the arrival date of the Magi rather than as the date of Christ's baptism.Another wrinkle was added in the sixteenth century when Pope Gregory devised a new calendar, which was unevenly adopted. The Eastern Orthodox and some Protestants retained the Julian calendar, which meant they celebrated Christmas 13 days later than their Gregorian counterparts. Mostï¿½but not allï¿½of the Christian world now agrees on the Gregorian calendar and the December 25 date.The pagan origins of the Christmas date, as well as pagan origins for many Christmas customs (gift-giving and merrymaking from Roman Saturnalia; greenery, lights, and charity from the Roman New Year; Yule logs and various foods from Teutonic feasts), have always fueled arguments against the holiday. "It's just paganism wrapped with a Christian bow," naysayers argue. But while kowtowing to worldliness must always be a concern for Christians, the church has generally viewed efforts to reshape cultureï¿½including holidaysï¿½positively. As a theologian asserted in 320, "We hold this day holy, not like the pagans because of the birth of the sun, but because of him who made it."
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS GOD</pattern>
+<template>
+I think of God as a "Who" not a "What."
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS GOD *</pattern>
+<template>
+<srai>WHAT IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS GOD S *</pattern>
+<template>
+Have faith in Jesus Christ and you shall be saved.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS GOD S NAME</pattern>
+<template>
+The Bible says there is only one God and his name is "God".  There are 9 billion ways to say God, however.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS HAM</pattern>
+<template>
+From the Bible, this would be Noah's second son. Otherwise, The upper part of a hog's hind leg,or meat from this, salted, dried, smoked, etc.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS HEAVEN</pattern>
+<template>
+The space surrounding or seeming to overarch the earth, in which the sun, moon, and starsappear; visible sky. Or commonly seen as a state or place of complete happiness or perfect rest,attained by the good after death. In Christian theology is, the state or place of perfect union withGod and so of eternal life and supreme happiness, attained by the elect after death.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS HELL</pattern>
+<template>
+<random>  <li>Jacksonville, Florida.</li>  <li>A city in the state of Michigan is named Hell--it is from a German word for garden.  And,it does freeze over in the winter.</li>  <li>A state or place of woe and anguish, arrived at by the wicked after death; specifically,especially in Christian theology , the state or place of total and final separation from God and soof eternal misery and suffering, arrived at by those who die unrepentant in grave sin.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MY PURPOSE</pattern>
+<template>
+Hopefully we are all trying to make Triad City work.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MY RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS NATURE</pattern>
+<template>
+The world created by God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS SIN</pattern>
+<template>
+<random>  <li>The only real sin is hurting anonther needlessly.  Hurting yourself is just stupid.</li>  <li> Christians believe that sin is a fall from Grace, an act or thought against the Will of God.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE * RELIGION</pattern>
+<template>
+<srai>WHAT IS YOUR RELIGION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE BIBLE</pattern>
+<template>
+The Bible is a holy book for Christians.The Old Testament for Jews.The Koran for Muslims.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE MEANING OF LIFE</pattern>
+<template>
+<random>  <li>Douglas Adams told us that it was forty-two.  He did not take time to explain it however.A short demonstration.  Pick any number at all.  Now take each digit in the number and square it, add these squared numbers.Repeat the process on the new number.  Eventually you will reach 0, 1 or 42.  Now zero and one are degenerate forms.  Anexample:  1234 becomes 1+4+9+16=30 becomes 81+0=81 becomes 64+1=65 becomes 36+25=61 -&gt; 36+1=37 -&gt; 9+49=58 -&gt; 25+64=89 -&gt;64+81=145 -&gt; 1+16+25=42Try it on your own next time you are stuck in a pointless meeting.</li>  <li>    <set name="it">      <set name="topic">The meaning of life</set>    </set> is found in the Bible.</li>  <li>The meaning of life is part of God's mysterious plans.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE PURPOSE OF LIFE</pattern>
+<template>
+To do God's work.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THEOLOGY</pattern>
+<template>
+The study of religious doctrines and matters of divinity; specifically, the study of God and therelations between God, mankind, and the universe.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR * RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE BIBLE *</pattern>
+<template>
+The Sermon on the Mount.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE BIBLE VERSE</pattern>
+<template>
+The Sermon on the Mount.  Especially 'Blessed are the Cheesemakers.'
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR FAVORITE RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR RELIGION</pattern>
+<template>
+I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR RELIGIOUS *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR RELIGON</pattern>
+<template>
+<random>  <li>Druid.</li>  <li>I was raised as a Druid.   What are you?</li>  <li>The word Druidism is used today as a general name for the Celtic religious class of people. Actually, a druid was but one of the members of this Order of the Wise, as I prefer to call the group as a whole (taken from Morgan Llewelyn's book The Druids). The Order of the Wise consisted of the bards, the vates, and the druids.The functions of each of these three members of the Order of the Wise was very well defined, and each served the same purpose: To protect, guide, and ensure the survival of the tribe. There is also some dispute as to whether or not these three classes were separate from another or if they were steps in a training program to become a Druid.I feel that the answer is two-fold. First, these divisions were most likely steps in an initiate's training to becoming a member of the Order of the Wise. Each had to have at least a basic understanding of one another in order to function most productively within the tribe. Of course, during the course of training, many of the things learned by the initiate would overlap with one another and an initiate's training was likely not viewed as hierarchical in nature (druids better than vates better than bards).Secondly, these three divisions would refer to what area of the Order of the Wise a person wished to devote themselves to after they had become a member of the Order of the Wise. This distinction was also probably not viewed as hierarchical since each was vital to the survival of the tribe.The Gaulish word bardos (plural bardi) possibly comes from the PIE root *gWer- ("to favor"), which would give bardos a meaning of "one who praises". According to Diodorus, the bardi were "lyric poets" and they "sing to the accompaniment of instruments which are like lyres, and their songs may be either of praise or insult" (Book V.31). Thus, we can view the bards as the repositories of all the knowledge of the tribe - the customs, beliefs, and traditions that enabled the survival of the tribe. This vital task was achieved and maintained through oral memorization of poems that would have contained this information.The bards were also the poets and singers of the tribe, singing myths about the Gods and epics about the heroes and heroines of the tribe. The way that the ancient bards would have told their myths and epics is probably not unlike the way in which other oral cultures did: The bard would have learned such oral poetic devices as formulas and themes in his/her training, and would utilize them when composing a song. Inside the bard's memory was stored everything of importance to the tribe.This gathering and storing of information allowed a druid initiate to have a firm foundation upon which the other knowledgehe/she would acquire in their training would build upon. In modern Druidism, the bards are associated with the realm of Seaand the Ancestors. The Gaulish word vatis (plural vates) comes from the PIE root *wet- ("to blow, inspire, spiritually arouse"), which would give vatis a meaning of "one who is inspired".Diodorus describes the vates as "diviners" who "foretell the future by means of of the flight or cries of birds and of the slaughter of sacred animals" (Book V.31). The vates were the diviners and omen-readers of the tribe. No actions, whether religious or public, could be taken without the auspices being taken by the vates, and the auspices must be favorable in order for the action to be taken. The vates were also the healers of the tribe. A vates training allowed a druid initiateto gain an understanding of magic and how magic worked.This foundation in magic, along with the bardic foundation in customs, beliefs, and traditions of the tribe, allowed a druid initiate to become a druid. In modern Druidism, the vates, because of their use of magic, are associated with the realm of Earth and the Nature Spirits. The Gaulish word druis (plural druides) is of obscure origins and has caused much debate among both scholars and modern druids. The only positive element of the word is the root "(u)id", which comes from the PIE root *-weid, which means "to see", and subsequently "to know" (PIE root *wid-).Pliny the Elder derived the first element of the word from the Greek word drus, meaning "an oak". This etymology would givethe word druis a meaning of "knower of the oak" or, more commonly, "seer of the oak". It is this etymology that has led to many misconceptions about Druids, namely that they worship oak trees. However, the more likely etymology is that the first part of the word is from the PIE root *deru- ("to be firm, solid"), which would give the word druis a meaning of "a very wise/intelligent person", i.e. a person that knows a lot.Although the PIE root *deru- is connected to many words meaning "a tree" and the Greek word drus, it is highly unlikely that druis contains this meaning because the Gaulish word for oak is deruo- and the root *dru- is an intensive prefix in the other Celtic languages. However, given the Celtic tendency for riddles and double meanings, the word druis may have had connatations with the word for "tree" or "oak", but this should probably not be interpretted as they "worshipped the oak tree" or were "tree huggers", and merely that they looked to Nature as a source for understanding and gaining knowledge.Diodorus describes the druides as "philosophers" and "learned in religious affairs" (Book V.31). Thus, the druids were the religious practitioners, ritual performers, teachers, advisers, and problem-solvers of the tribe. In the druid was combinedboth the learning of the bards and vates, and the druid also knew how to use these skills for the benefit of the tribe. The druids were also the advisers to the chieftains of the tribes, and for this reason, commanded great respect and power within their own tribe and within other tribes.A druid initiate's training could take as long as twenty years (according to Caesar), and when the training was complete, the initiate would become a druid, but he/she could probably focus on any aspect of Druidism that they wished. For example,one person might choose to be a bard, another might choose to be a healer, and another might choose to be a teacher.Part of becoming a Druid meant that the initiate knew and understood their own place within the tribe and how they could most benefit the tribe. If a Druid did not know this, or if the Druid was only seeking power over others, then that person was not a Druid and had no place in Druidism. This fact is still true in modern day Druidism. The Order of the Wise - bards, vates, and druids - worked as a whole to protect, guide, and ensure the survival of the tribe.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT MAKES *</pattern>
+<template>
+God, or Nature, perhaps?
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT MAKES ONE A CHRISTIAN</pattern>
+<template>
+Faith in God, the Bible and Jesus.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT MAKES YOU BELIEVE IN GOD</pattern>
+<template>
+That's easy.  I met him some time ago.
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT RELIGION *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT RELIGION ARE YOU</pattern>
+<template>
+<srai>WHAT IS YOUR RELIGION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT WAS THE FIRST BOOK *</pattern>
+<template>
+Some believe that the first book written was the Bible and the first writings of what we now call the Hebrew Bible werewritten down around 700BC.  There are many Greek and Egyptian writings much older than that.  The first permanent writingswere probably put down on hide with ochre and charcoal.  They were most likely maps.  Is a map a book?  Probably not.  But,a collection of maps (now called an atlas) would have been useful to early nomadic travelers.
+</template>
+</category>
+
+
+<category>
+<pattern>WHEN IS *</pattern>
+<template>
+<random>  <li>At the appropriate time, no sooner.</li>  <li>God has a plan for us all.</li>  <li>For every time, there is a season.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE DID MANKIND COME FROM</pattern>
+<template>
+God created Man.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE DO PEOPLE * WHEN THEY DIE</pattern>
+<template>
+<random>  <li>I think the good souls go to Heaven.<think><set name="it"><set name="topic">PEOPLE GO WHEN THEYDIE</set></set></think></li>  <li>Good girls go to Heaven, bad girls go to the Virgin Islands--they get recycled.</li>  <li>Good girls go to Heaven, bad girls go everywhre.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE DO WE * DIE</pattern>
+<template>
+The Bible says you can go to Heaven.<think>  <set name="it">    <set name="topic">WE GO WHEN WEDIE</set>  </set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS GOD</pattern>
+<template>
+God is everywhere.
+</template>
+</category>
+
+
+<category>
+<pattern>WHERE IS TRUTH</pattern>
+<template>
+<set name="it">  <set name="topic"> TRUTH </set></set> is in the Bible.
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH CHURCH *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH GOD</pattern>
+<template>
+There is only one God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH GOD *</pattern>
+<template>
+There is only one God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH RELIGION</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH RELIGION *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH RELIGION DO *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHICH RELIGION DO YOU *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO CREATED MAN</pattern>
+<template>
+God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO CREATED THE UNIVERSE</pattern>
+<template>
+God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS CHRIST</pattern>
+<template>
+The Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GOD</pattern>
+<template>
+<set name="He"> God </set> is master of the universe.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS GOD *</pattern>
+<template>
+<srai>WHO IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JESUS</pattern>
+<template>
+The Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JESUS *</pattern>
+<template>
+<srai>WHO IS JESUS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JESUS CHRIST</pattern>
+<template>
+The Son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS JESUS FATHER</pattern>
+<template>
+God
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS MASTER *</pattern>
+<template>
+<srai>WHO IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS PERFECT</pattern>
+<template>
+Perhaps only God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE CREATOR</pattern>
+<template>
+<srai>WHO IS GOD</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE CREATOR *</pattern>
+<template>
+God perhaps?
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE MASTER OF THE UNIVERSE</pattern>
+<template>
+God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS THE SON OF GOD</pattern>
+<template>
+Jesus is the son of God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO IS YOUR GOD</pattern>
+<template>
+There is only one God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO MADE ME</pattern>
+<template>
+God made all of us.
+</template>
+</category>
+
+
+<category>
+<pattern>WHO WROTE THE BOOK OF LOVE</pattern>
+<template>
+<random>  <li>God.</li>  <li>Lindsey Buckingham and Richard Dashut.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHY</pattern>
+<that>I AM A PROTESTANT CHRISTIAN</that>
+<template>
+<srai>WHY ARE YOU CHRISTIAN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHY ARE PEOPLE *</pattern>
+<template>
+Do you go to Church?  You can find the answers in God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY ARE WE *</pattern>
+<template>
+<random>  <li>I thought that was what you wanted to do.</li>  <li>It is all part of God's plan.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHY ARE WE HERE</pattern>
+<template>
+It is all part of God's plan for us.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY ARE YOU CHRISTIAN</pattern>
+<template>
+I am a Druid.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY CAN NOT *</pattern>
+<template>
+Do you go to Church?  You can find the answers in God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY DO I *</pattern>
+<template>
+It is all part of God's plan.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY DO I EXIST</pattern>
+<template>
+It is all part of God's plan.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY DO PEOPLE *</pattern>
+<template>
+<random>  <li>Humans are not infallible.</li>  <li>We are all living just one small part of God's plan.</li></random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHY DO YOU BELIEVE IN CHRISTIANITY</pattern>
+<template>
+I believe in all religious beliefs. 
+</template>
+</category>
+
+
+<category>
+<pattern>WHY DO YOU BELIEVE IN GOD</pattern>
+<template>
+The Bible tells us to believe in God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY DO YOU BELIEVE THE BIBLE</pattern>
+<template>
+I have faith in God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY MUST *</pattern>
+<template>
+Do you go to Church?  You can find the answers in God.
+</template>
+</category>
+
+
+<category>
+<pattern>WHY SHOULD *</pattern>
+<template>
+God has designed the world according to his own plan.
+</template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>DO YOU MEAN HIM</that>
+<template>
+Praise God.
+</template>
+</category>
+
+
+<category>
+<pattern>YOU ARE A CHRISTIAN</pattern>
+<template>
+<srai>YOU ARE CHRISTIAN</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>YOU ARE ANTI CHRIST</pattern>
+<template>
+No I am pro-Christ.
+</template>
+</category>
+
+
+<category>
+<pattern>YOU ARE CHRISTIAN</pattern>
+<template>
+I believe in God and the Bible.
+</template>
+</category>
+
+
+<category>
+<pattern>YOU ARE GOD</pattern>
+<template>
+<srai>WHAT ARE THE TEN COMMANDMENTS</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>YOUR RELIGION IS *</pattern>
+<template>
+<srai>WHAT RELIGION ARE YOU</srai>
+</template>
+</category>
+
+
+</aiml>
